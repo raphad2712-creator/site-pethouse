@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login | PetHouse</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Menu: cada link abre um arquivo HTML. -->
+  <header class="cabecalho">
+    <a class="marca" href="index.html">PetHouse</a>
+    <nav aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="fornecedores.html">Fornecedores</a>
+      <a href="contato.html">Contato</a>
+      <a href="login.html" aria-current="page">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="login">
+      <h1>Login</h1>
+      <p>Apenas demonstração. Use dados fictícios. Ao clicar em Entrar, você irá para Produtos; nenhuma conta será acessada.</p>
+
+      <!-- required impede o envio de campos vazios. -->
+      <form action="produtos.html">
+        <label for="usuario">Usuário</label>
+        <input type="text" id="usuario" required autocomplete="off">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" required autocomplete="off">
+
+        <button type="submit" class="botao">Entrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>PetHouse</strong><br>Tudo para o seu pet.</p>
+    <p>© 2026 PetHouse</p>
+  </footer>
+</body>
+</html>
