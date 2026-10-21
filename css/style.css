@@ -1,28 +1,76 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* Estilo geral de todas as páginas. */
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 * {
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 130px;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 body {
   margin: 0;
   background: #fffbf5;
   color: #302c28;
+<<<<<<< HEAD
   font: 16px/1.6 Arial, sans-serif;
+=======
+<<<<<<< HEAD
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+=======
+  font: 16px/1.6 Arial, sans-serif;
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 }
 
 a {
   color: #386b5a;
 }
 
+<<<<<<< HEAD
 h1, h2, h3, p {
+=======
+<<<<<<< HEAD
+h1, h2, p {
+=======
+h1, h2, h3, p {
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   margin: 0 0 15px;
 }
 
 h1 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 19px;
+}
+
+/* Cabeçalho e navegação. */
+.cabecalho, footer {
+=======
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   font-size: clamp(32px, 5vw, 60px);
   line-height: 1.1;
 }
@@ -57,10 +105,21 @@ section, .cabecalho, footer, .vantagens {
   position: sticky;
   top: 0;
   z-index: 2;
+<<<<<<< HEAD
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  padding: 25px 5%;
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   background: white;
 }
 
@@ -70,6 +129,15 @@ section, .cabecalho, footer, .vantagens {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+=======
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 .destaque {
   color: #c9572b;
 }
@@ -78,28 +146,86 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+<<<<<<< HEAD
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 }
 
 nav a {
   padding: 6px 12px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  background: #edf4ef;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+nav a:hover, nav a[aria-current="page"] {
+=======
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   border-radius: 8px;
   background: #edf4ef;
   text-decoration: none;
 }
 
 nav a:hover {
+<<<<<<< HEAD
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   background: #386b5a;
   color: white;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+main {
+  min-height: 65vh;
+}
+
+section {
+  padding: 35px 5%;
+}
+
+.destaque, .preco {
+  color: #c9572b;
+  font-weight: bold;
+=======
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 .destaque {
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
+<<<<<<< HEAD
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 }
 
 .botao {
   display: inline-block;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  margin-top: 10px;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #c9572b;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Página inicial. */
+.hero, .contato {
+  display: flex;
+=======
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   padding: 12px 20px;
   border-radius: 8px;
   background: #c9572b;
@@ -110,6 +236,10 @@ nav a:hover {
 .hero, .contato {
   display: grid;
   grid-template-columns: 1fr 1fr;
+<<<<<<< HEAD
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   align-items: center;
   gap: 35px;
 }
@@ -118,6 +248,36 @@ nav a:hover {
   background: #ffe9d9;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.hero header, .hero figure, .contato header, address {
+  flex: 1;
+}
+
+figure {
+  margin: 0;
+  height: 160px;
+  border-radius: 10px;
+  background: #f5f5f5;
+}
+
+.pets {
+  height: 280px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.vantagens {
+  display: flex;
+  gap: 25px;
+  padding: 30px 5%;
+=======
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 .pets {
   width: 100%;
   height: 280px;
@@ -130,10 +290,31 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
+<<<<<<< HEAD
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   background: #386b5a;
   color: white;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.vantagens li {
+  flex: 1;
+}
+
+/* Os produtos ficam escritos diretamente no HTML. */
+.produtos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.produtos li, address, form {
+=======
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 .vantagens p {
   margin: 5px 0 0;
 }
@@ -152,12 +333,39 @@ nav a:hover {
 }
 
 .grade li, address {
+<<<<<<< HEAD
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   padding: 20px;
   border: 1px solid #e8dfd3;
   border-radius: 15px;
   background: white;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.produtos img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.titulo {
+  margin-bottom: 20px;
+}
+
+.categoria {
+  color: #6b6259;
+  font-size: 13px;
+}
+
+.preco {
+  font-size: 20px;
+=======
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 .produtos figure {
   width: 100%;
   height: 160px;
@@ -207,6 +415,10 @@ nav a:hover {
 
 .fornecedores li > p:not(.fundacao) {
   margin: 10px 0 0;
+<<<<<<< HEAD
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 }
 
 address {
@@ -214,6 +426,32 @@ address {
   overflow-wrap: anywhere;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* Formulário de demonstração. */
+.login {
+  max-width: 550px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+footer {
+=======
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 address p:last-child, footer p {
   margin: 0;
 }
@@ -222,10 +460,36 @@ footer {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+<<<<<<< HEAD
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   background: #263e36;
   color: white;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+footer p {
+  margin: 0;
+}
+
+/* Em telas pequenas, os elementos ficam um abaixo do outro. */
+@media (max-width: 700px) {
+  .cabecalho, footer, .hero, .contato, .vantagens {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .produtos {
+    grid-template-columns: 1fr;
+  }
+
+  .hero figure {
+    flex: auto;
+=======
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 @media (max-width: 650px) {
   .cabecalho, footer {
     flex-direction: column;
@@ -259,6 +523,7 @@ footer {
 @media (max-width: 650px) {
   .catalogo .produtos {
     grid-template-columns: 1fr;
+<<<<<<< HEAD
   }
 }
 
@@ -284,3 +549,8 @@ footer {
 }
 .form-login button { width: 100%; border: 0; cursor: pointer; font: inherit; margin: 18px 0; }
 .form-login p { font-size: 13px; color: #6b6259; }
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
+  }
+}
+>>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
