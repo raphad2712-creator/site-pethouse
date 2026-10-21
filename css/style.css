@@ -1,64 +1,25 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-/* Estilo geral de todas as páginas. */
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
+
 * {
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 130px;
-}
-
-<<<<<<< HEAD
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 body {
   margin: 0;
   background: #fffbf5;
   color: #302c28;
-<<<<<<< HEAD
-  font: 16px/1.6 Arial, sans-serif;
-=======
-<<<<<<< HEAD
   font-family: Arial, sans-serif;
   line-height: 1.6;
-=======
-  font: 16px/1.6 Arial, sans-serif;
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 }
 
 a {
   color: #386b5a;
 }
 
-<<<<<<< HEAD
-h1, h2, h3, p {
-=======
-<<<<<<< HEAD
 h1, h2, p {
-=======
-h1, h2, h3, p {
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   margin: 0 0 15px;
 }
 
 h1 {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
   font-size: 36px;
   line-height: 1.2;
 }
@@ -67,59 +28,12 @@ h2 {
   font-size: 19px;
 }
 
-/* Cabeçalho e navegação. */
 .cabecalho, footer {
-=======
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
-  font-size: clamp(32px, 5vw, 60px);
-  line-height: 1.1;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 19px;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-figure {
-  margin: 0;
-}
-
-img {
-  max-width: 100%;
-}
-
-section, .cabecalho, footer, .vantagens {
-  padding: 35px max(20px, calc((100% - 1100px) / 2));
-}
-
-.cabecalho {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-<<<<<<< HEAD
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
   padding: 25px 5%;
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   background: white;
 }
 
@@ -129,59 +43,24 @@ section, .cabecalho, footer, .vantagens {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 nav {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-=======
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
-.destaque {
-  color: #c9572b;
-}
-
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-<<<<<<< HEAD
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 }
 
 nav a {
   padding: 6px 12px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
   background: #edf4ef;
   border-radius: 8px;
   text-decoration: none;
 }
 
 nav a:hover, nav a[aria-current="page"] {
-=======
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
-  border-radius: 8px;
-  background: #edf4ef;
-  text-decoration: none;
-}
-
-nav a:hover {
-<<<<<<< HEAD
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   background: #386b5a;
   color: white;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 main {
   min-height: 65vh;
 }
@@ -193,23 +72,10 @@ section {
 .destaque, .preco {
   color: #c9572b;
   font-weight: bold;
-=======
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
-.destaque {
-  font-size: 13px;
-  font-weight: bold;
-  text-transform: uppercase;
-<<<<<<< HEAD
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 }
 
 .botao {
   display: inline-block;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
   margin-top: 10px;
   padding: 12px 20px;
   border: 0;
@@ -221,25 +87,8 @@ section {
   cursor: pointer;
 }
 
-/* Página inicial. */
 .hero, .contato {
   display: flex;
-=======
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
-  padding: 12px 20px;
-  border-radius: 8px;
-  background: #c9572b;
-  color: white;
-  text-decoration: none;
-}
-
-.hero, .contato {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-<<<<<<< HEAD
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   align-items: center;
   gap: 35px;
 }
@@ -248,10 +97,7 @@ section {
   background: #ffe9d9;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-.hero header, .hero figure, .contato header, address {
+.hero .texto-intro, .hero figure, .contato .texto-intro, address {
   flex: 1;
 }
 
@@ -276,36 +122,14 @@ ul {
   display: flex;
   gap: 25px;
   padding: 30px 5%;
-=======
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
-.pets {
-  width: 100%;
-  height: 280px;
-  border: 1px solid #e8dfd3;
-  border-radius: 20px;
-  background: #f5f5f5;
-}
-
-.vantagens {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-<<<<<<< HEAD
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   background: #386b5a;
   color: white;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .vantagens li {
   flex: 1;
 }
 
-/* Os produtos ficam escritos diretamente no HTML. */
 .produtos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -313,39 +137,12 @@ ul {
 }
 
 .produtos li, address, form {
-=======
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
-.vantagens p {
-  margin: 5px 0 0;
-}
-
-.titulo {
-  margin-bottom: 25px;
-}
-
-.grade {
-  display: grid;
-  gap: 20px;
-}
-
-.produtos {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grade li, address {
-<<<<<<< HEAD
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   padding: 20px;
   border: 1px solid #e8dfd3;
   border-radius: 15px;
   background: white;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .produtos img {
   width: 100%;
   height: 200px;
@@ -364,61 +161,6 @@ ul {
 
 .preco {
   font-size: 20px;
-=======
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
-.produtos figure {
-  width: 100%;
-  height: 160px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  background: #f5f5f5;
-}
-
-.produtos .categoria {
-  margin: 0 0 4px;
-  font-size: 13px;
-  color: #6b6259;
-}
-
-.produtos h3 {
-  min-height: 50px;
-}
-
-.produtos .preco {
-  margin: 0;
-  color: #c9572b;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#fornecedores {
-  background: #f4eee5;
-}
-
-.fornecedores {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.fornecedores figure {
-  width: 100%;
-  height: 180px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  background: #f5f5f5;
-}
-
-.fornecedores .fundacao {
-  margin: 0;
-  color: #386b5a;
-  font-size: 14px;
-}
-
-.fornecedores li > p:not(.fundacao) {
-  margin: 10px 0 0;
-<<<<<<< HEAD
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
 }
 
 address {
@@ -426,10 +168,6 @@ address {
   overflow-wrap: anywhere;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-/* Formulário de demonstração. */
 .login {
   max-width: 550px;
   margin: auto;
@@ -450,32 +188,14 @@ input {
 }
 
 footer {
-=======
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
-address p:last-child, footer p {
-  margin: 0;
-}
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-<<<<<<< HEAD
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
   background: #263e36;
   color: white;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 footer p {
   margin: 0;
 }
 
-/* Em telas pequenas, os elementos ficam um abaixo do outro. */
 @media (max-width: 700px) {
   .cabecalho, footer, .hero, .contato, .vantagens {
     flex-direction: column;
@@ -488,69 +208,5 @@ footer p {
 
   .hero figure {
     flex: auto;
-=======
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
-@media (max-width: 650px) {
-  .cabecalho, footer {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .hero, .contato, .vantagens, .produtos, .fornecedores {
-    grid-template-columns: 1fr;
-  }
-
-  nav {
-    gap: 8px;
-  }
-
-  nav a {
-    padding: 5px 8px;
-  }
-
-}
-
-.catalogo .titulo {
-  margin-bottom: 25px;
-}
-
-.catalogo .produtos .botao {
-  margin-top: 15px;
-  font-size: 14px;
-  font-weight: normal;
-}
-
-@media (max-width: 650px) {
-  .catalogo .produtos {
-    grid-template-columns: 1fr;
-<<<<<<< HEAD
   }
 }
-
-.pagina-vazia { min-height: 65vh; background: #f4eee5; }
-.area-login { min-height: 70vh; text-align: center; }
-.form-login {
-  max-width: 380px;
-  margin: 25px auto;
-  padding: 25px;
-  border: 1px solid #e8dfd3;
-  border-radius: 15px;
-  background: white;
-  text-align: left;
-}
-.form-login label { display: block; margin: 10px 0 5px; font-weight: bold; }
-.form-login input {
-  display: block;
-  width: 100%;
-  padding: 11px;
-  border: 1px solid #cbbfb1;
-  border-radius: 8px;
-  font: inherit;
-}
-.form-login button { width: 100%; border: 0; cursor: pointer; font: inherit; margin: 18px 0; }
-.form-login p { font-size: 13px; color: #6b6259; }
-=======
->>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
-  }
-}
->>>>>>> 47c3cddbad1aa0675faa9bdab45682156d303fbc
