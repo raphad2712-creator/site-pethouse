@@ -1,25 +1,45 @@
+<<<<<<< HEAD
 /* Estilo geral de todas as páginas. */
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
 * {
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+=======
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 130px;
+}
+
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
 body {
   margin: 0;
   background: #fffbf5;
   color: #302c28;
+<<<<<<< HEAD
   font-family: Arial, sans-serif;
   line-height: 1.6;
+=======
+  font: 16px/1.6 Arial, sans-serif;
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
 }
 
 a {
   color: #386b5a;
 }
 
+<<<<<<< HEAD
 h1, h2, p {
+=======
+h1, h2, h3, p {
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
   margin: 0 0 15px;
 }
 
 h1 {
+<<<<<<< HEAD
   font-size: 36px;
   line-height: 1.2;
 }
@@ -30,11 +50,50 @@ h2 {
 
 /* Cabeçalho e navegação. */
 .cabecalho, footer {
+=======
+  font-size: clamp(32px, 5vw, 60px);
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+section, .cabecalho, footer, .vantagens {
+  padding: 35px max(20px, calc((100% - 1100px) / 2));
+}
+
+.cabecalho {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+<<<<<<< HEAD
   padding: 25px 5%;
+=======
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
   background: white;
 }
 
@@ -44,24 +103,45 @@ h2 {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 nav {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+=======
+.destaque {
+  color: #c9572b;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
 }
 
 nav a {
   padding: 6px 12px;
+<<<<<<< HEAD
   background: #edf4ef;
   border-radius: 8px;
   text-decoration: none;
 }
 
 nav a:hover, nav a[aria-current="page"] {
+=======
+  border-radius: 8px;
+  background: #edf4ef;
+  text-decoration: none;
+}
+
+nav a:hover {
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
   background: #386b5a;
   color: white;
 }
 
+<<<<<<< HEAD
 main {
   min-height: 65vh;
 }
@@ -73,10 +153,17 @@ section {
 .destaque, .preco {
   color: #c9572b;
   font-weight: bold;
+=======
+.destaque {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
 }
 
 .botao {
   display: inline-block;
+<<<<<<< HEAD
   margin-top: 10px;
   padding: 12px 20px;
   border: 0;
@@ -91,6 +178,18 @@ section {
 /* Página inicial. */
 .hero, .contato {
   display: flex;
+=======
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: #c9572b;
+  color: white;
+  text-decoration: none;
+}
+
+.hero, .contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
   align-items: center;
   gap: 35px;
 }
@@ -99,6 +198,7 @@ section {
   background: #ffe9d9;
 }
 
+<<<<<<< HEAD
 .hero header, .hero figure, .contato header, address {
   flex: 1;
 }
@@ -124,10 +224,25 @@ ul {
   display: flex;
   gap: 25px;
   padding: 30px 5%;
+=======
+.pets {
+  width: 100%;
+  height: 280px;
+  border: 1px solid #e8dfd3;
+  border-radius: 20px;
+  background: #f5f5f5;
+}
+
+.vantagens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
   background: #386b5a;
   color: white;
 }
 
+<<<<<<< HEAD
 .vantagens li {
   flex: 1;
 }
@@ -140,12 +255,33 @@ ul {
 }
 
 .produtos li, address, form {
+=======
+.vantagens p {
+  margin: 5px 0 0;
+}
+
+.titulo {
+  margin-bottom: 25px;
+}
+
+.grade {
+  display: grid;
+  gap: 20px;
+}
+
+.produtos {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grade li, address {
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
   padding: 20px;
   border: 1px solid #e8dfd3;
   border-radius: 15px;
   background: white;
 }
 
+<<<<<<< HEAD
 .produtos img {
   width: 100%;
   height: 200px;
@@ -164,6 +300,57 @@ ul {
 
 .preco {
   font-size: 20px;
+=======
+.produtos figure {
+  width: 100%;
+  height: 160px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background: #f5f5f5;
+}
+
+.produtos .categoria {
+  margin: 0 0 4px;
+  font-size: 13px;
+  color: #6b6259;
+}
+
+.produtos h3 {
+  min-height: 50px;
+}
+
+.produtos .preco {
+  margin: 0;
+  color: #c9572b;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#fornecedores {
+  background: #f4eee5;
+}
+
+.fornecedores {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.fornecedores figure {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background: #f5f5f5;
+}
+
+.fornecedores .fundacao {
+  margin: 0;
+  color: #386b5a;
+  font-size: 14px;
+}
+
+.fornecedores li > p:not(.fundacao) {
+  margin: 10px 0 0;
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
 }
 
 address {
@@ -171,6 +358,7 @@ address {
   overflow-wrap: anywhere;
 }
 
+<<<<<<< HEAD
 /* Formulário de demonstração. */
 .login {
   max-width: 550px;
@@ -192,10 +380,21 @@ input {
 }
 
 footer {
+=======
+address p:last-child, footer p {
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
   background: #263e36;
   color: white;
 }
 
+<<<<<<< HEAD
 footer p {
   margin: 0;
 }
@@ -213,5 +412,40 @@ footer p {
 
   .hero figure {
     flex: auto;
+=======
+@media (max-width: 650px) {
+  .cabecalho, footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero, .contato, .vantagens, .produtos, .fornecedores {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    gap: 8px;
+  }
+
+  nav a {
+    padding: 5px 8px;
+  }
+
+}
+
+.catalogo .titulo {
+  margin-bottom: 25px;
+}
+
+.catalogo .produtos .botao {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+@media (max-width: 650px) {
+  .catalogo .produtos {
+    grid-template-columns: 1fr;
+>>>>>>> b81e846072c96f7165683baecf93c36c1a95bef7
   }
 }
