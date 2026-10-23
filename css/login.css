@@ -9,9 +9,9 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    min-height: 95vh;
+    min-height: 100vh;
     background: url(../imagens/fundo_login.jpg);
     background-size: cover;
     background-position: center;
@@ -38,10 +38,20 @@ footer p {
     gap: 20px;
     padding: 25px 5%;
     background: white;
+    width: 100%;
+    flex-wrap: wrap;
 }
+
+.cabecalho a { font-family: Arial, sans-serif; }
+.marca { color: #386b5a; font-size: 27px; font-weight: bold; text-decoration: none; }
+.cabecalho nav { display: flex; flex-wrap: wrap; gap: 10px; }
+.cabecalho nav a { padding: 6px 12px; color: #386b5a; background: #edf4ef; border-radius: 8px; text-decoration: none; line-height: 1.6; }
+.cabecalho nav a:hover, .cabecalho nav a[aria-current="page"] { color: white; background: #386b5a; }
 
 .container {
     width: 420px;
+    max-width: 92%;
+    margin: 40px auto;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 10px;
@@ -145,8 +155,9 @@ footer p {
 }
 
 @media (max-width: 750px) {
-  body { flex-direction: column; gap: 20px; padding: 20px 12px; min-height: 100vh; }
+  .cabecalho { flex-direction: column; align-items: flex-start; }
   .cabecalho { max-width: 100%; padding: 15px; }
   .cabecalho nav { display: flex; flex-wrap: wrap; gap: 8px; }
-  .container { width: 420px; max-width: 100%; padding: 25px 20px; }
+  .container { padding: 25px 20px; }
+  .remember-forgot { flex-wrap: wrap; gap: 10px; }
 }
