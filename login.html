@@ -1,44 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Login | PetHouse</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  
-  <header class="cabecalho">
-    <a class="marca" href="index.html">PetHouse</a>
-    <nav aria-label="Menu principal">
-      <a href="index.html">Início</a>
-      <a href="produtos.html">Produtos</a>
-      <a href="fornecedores.html">Fornecedores</a>
-      <a href="contato.html">Contato</a>
-      <a href="login.html" aria-current="page">Login</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="login">
-      <h1>Login</h1>
-      <p>Apenas demonstração. Use dados fictícios. Ao clicar em Entrar, você irá para Produtos; nenhuma conta será acessada.</p>
-
-      <form action="produtos.html">
-        <label for="usuario">Usuário</label>
-        <input type="text" id="usuario" required autocomplete="off">
-
-        <label for="senha">Senha</label>
-        <input type="password" id="senha" required autocomplete="off">
-
-        <button type="submit" class="botao">Entrar</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <p><strong>PetHouse</strong><br>Tudo para o seu pet.</p>
-    <p>© 2026 PetHouse</p>
-  </footer>
-</body>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/login.css">
+        <title>Login</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <a class="marca" href="index.html">PetHouse</a>
+            <nav aria-label="Menu principal">
+                <a href="index.html">Início</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="fornecedores.html">Fornecedores</a>
+                <a href="contato.html">Contato</a>
+                <a href="login.html" aria-current="page">Login</a>
+            </nav>
+        </header>
+        <main class="container">
+            <form action="produtos.html">
+                <h1>Login</h1>
+                <p>Acesso de demonstração. Use dados fictícios.</p>
+                <div class="input-box">
+                    <input placeholder="E-mail" type="email" aria-label="E-mail" required>
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="input-box">
+                    <input placeholder="Senha" type="password" aria-label="Senha" required>
+                    <i class="bx bxs-lock-alt"></i>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                    <input type="checkbox">
+                    Lembrar senha
+                    </label>
+                    <a href="#">Esqueci a senha</a>
+                </div>
+                <button type="submit" class="login-button">Login</button>
+            </form>
+        </main>
+        <footer>
+                <p><strong>PetHouse</strong><br>Tudo para o seu pet.</p>
+                <p>© 2026 PetHouse</p>
+        </footer>
+    </body>
 </html>
