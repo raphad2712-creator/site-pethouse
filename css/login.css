@@ -11,7 +11,7 @@ body {
   color: white;
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  background: url("../imagens/fundo_login.jpg") center / cover;
+  background: url("../imagens/fundo_login_hd.webp") center / cover;
 }
 
 .cabecalho, footer {
