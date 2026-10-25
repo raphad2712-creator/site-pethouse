@@ -1,163 +1,145 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Fraunces", serif;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    background: url(../imagens/fundo_login.jpg);
-    background-size: cover;
-    background-position: center;
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .4)), url("../imagens/fundo_login.jpg") center / cover;
+}
+
+.cabecalho, footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 5%;
+}
+
+.cabecalho {
+  background: white;
+}
+
+.cabecalho a {
+  color: #386b5a;
+  text-decoration: none;
+}
+
+.marca {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.cabecalho a:hover {
+  text-decoration: underline;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.container {
+  width: 420px;
+  max-width: 100%;
+  padding: 32px;
+  border: 1px solid rgba(255, 255, 255, .4);
+  border-radius: 14px;
+  background: rgba(24, 42, 31, .85);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, .25);
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 36px;
+}
+
+.aviso, .ajuda {
+  font-size: 14px;
+  text-align: center;
+}
+
+.aviso {
+  margin: 8px 0 24px;
+}
+
+.ajuda {
+  margin: 18px 0 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+input {
+  width: 100%;
+  min-width: 0;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, .6);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, .08);
+  color: white;
+  font: inherit;
+}
+
+input::placeholder {
+  color: #e5e9e6;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: 0;
+  border-radius: 28px;
+  background: #c9572b;
+  color: white;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ab4420;
+}
+
+a:focus-visible, input:focus-visible, button:focus-visible {
+  outline: 3px solid #e99a62;
+  outline-offset: 4px;
 }
 
 footer {
-    background: #263e36;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    padding: 25px 5%;
+  background: #263e36;
 }
 
 footer p {
   margin: 0;
 }
 
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    padding: 25px 5%;
-    background: white;
-    width: 100%;
+@media (max-width: 480px) {
+  .cabecalho, footer {
+    padding: 16px 20px;
     flex-wrap: wrap;
-}
+  }
 
-.cabecalho a { font-family: Arial, sans-serif; }
-.marca { color: #386b5a; font-size: 27px; font-weight: bold; text-decoration: none; }
-.cabecalho nav { display: flex; flex-wrap: wrap; gap: 10px; }
-.cabecalho nav a { padding: 6px 12px; color: #386b5a; background: #edf4ef; border-radius: 8px; text-decoration: none; line-height: 1.6; }
-.cabecalho nav a:hover, .cabecalho nav a[aria-current="page"] { color: white; background: #386b5a; }
+  .container {
+    padding: 24px;
+  }
 
-.container {
-    width: 420px;
-    max-width: 92%;
-    margin: 40px auto;
-    background-color: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 10px;
-    color: white;
-    padding: 30px 40px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    backdrop-filter: blur(50px);
-}
-
-.container h1 {
-    font-size: 36px;
-    text-align: center;
-}
-
-.input-box {
-    position: relative;
-    width: 100%;
-    height: 50px;
-    margin: 30px 0;
-}
-
-.input-box input {
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
-    outline: none;
-    font-size: 16px;
-    color: white;
-    padding: 20px 45px 20px 20px;
-}
-
-.input-box input::placeholder {
-    color: rgb(247, 242, 242);
-}
-
-.input-box i {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-}
-
-.remember-forgot {
-    display: flex;
-    justify-content: space-between;
-    margin: -15px 0 15px;
-}
-
-.remember-forgot label input{
-    accent-color: white;
-    margin-right: 5px;
-}
-
-.remember-forgot a {
-    text-decoration: none;
-    color: white;
-}
-
-.remember-forgot a:hover {
-    text-decoration: underline;
-}
-
-.login-button {
-    display: inline-block;
-    width: 100%;
-    height: 50px;
-    background-color: #c9572b;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-    font-size: 16px;
-    color: white;
-    font-weight: 600;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.login-button:hover {
-    background-color: transparent;
-    border: 2px solid #c9572b;
-    color: white;
-    transition: 0.5s;
-}
-
-.register-link {
-    font-size: 16px;
-    text-align: center;
-    margin: 20px 0 15px;
-}
-
-.register-link a {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-}
-
-.register-link a:hover {
-    text-decoration: underline;
-}
-
-@media (max-width: 750px) {
-  .cabecalho { flex-direction: column; align-items: flex-start; }
-  .cabecalho { max-width: 100%; padding: 15px; }
-  .cabecalho nav { display: flex; flex-wrap: wrap; gap: 8px; }
-  .container { padding: 25px 20px; }
-  .remember-forgot { flex-wrap: wrap; gap: 10px; }
+  main {
+    padding: 24px 16px;
+  }
 }
