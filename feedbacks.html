@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feedbacks | PetHouse</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <a class="marca" href="index.html">PetHouse</a>
+    <nav aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="fornecedores.html">Fornecedores</a>
+      <a href="orcamentos.html">Orçamentos</a>
+      <a href="feedbacks.html" aria-current="page">Feedbacks</a>
+      <a href="fidelidade.html">Fidelidade</a>
+      <a href="agendamento.html">Agendamento</a>
+      <a href="carrinho.html">Carrinho</a>
+      <a href="contato.html">Contato</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="avaliacoes">
+      <div class="titulo">
+        <p class="destaque">Opinião dos clientes</p>
+        <h1>Feedbacks</h1>
+        <p>Veja o que os tutores dizem sobre a experiência de comprar na PetHouse.</p>
+      </div>
+      <ul class="cartoes">
+        <li>
+          <h2>Mariana S.</h2>
+          <p class="preco">Nota: 5 de 5</p>
+          <p>Minha gata adorou a fonte de água e a entrega chegou antes do prazo.</p>
+        </li>
+        <li>
+          <h2>Carlos P.</h2>
+          <p class="preco">Nota: 4 de 5</p>
+          <p>A cama é bem confortável e o atendimento tirou todas as minhas dúvidas.</p>
+        </li>
+        <li>
+          <h2>Fernanda L.</h2>
+          <p class="preco">Nota: 5 de 5</p>
+          <p>Os produtos de higiene são ótimos e chegaram muito bem embalados.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="enviar-feedback">
+      <h2>Deixe a sua opinião</h2>
+      <form action="mailto:contato@pethouse.com.br" method="post" enctype="text/plain">
+        <label for="autor">Nome</label>
+        <input type="text" id="autor" name="autor" required>
+
+        <label for="nota">Nota</label>
+        <select id="nota" name="nota">
+          <option>5 - Excelente</option>
+          <option>4 - Muito bom</option>
+          <option>3 - Regular</option>
+          <option>2 - Ruim</option>
+          <option>1 - Péssimo</option>
+        </select>
+
+        <label for="comentario">Comentário</label>
+        <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+        <button class="botao" type="submit">Enviar feedback</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>PetHouse</strong><br>Tudo para o seu pet.</p>
+    <p>© 2026 PetHouse</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carrinho | PetHouse</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <a class="marca" href="index.html">PetHouse</a>
+    <nav aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="fornecedores.html">Fornecedores</a>
+      <a href="orcamentos.html">Orçamentos</a>
+      <a href="feedbacks.html">Feedbacks</a>
+      <a href="fidelidade.html">Fidelidade</a>
+      <a href="agendamento.html">Agendamento</a>
+      <a href="carrinho.html" aria-current="page">Carrinho</a>
+      <a href="contato.html">Contato</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="carrinho">
+      <div class="titulo">
+        <p class="destaque">Sua compra</p>
+        <h1>Carrinho de compras</h1>
+        <p>Confira os itens escolhidos antes de finalizar o pedido.</p>
+      </div>
+      <form action="#" method="post">
+        <div class="tabela">
+          <table>
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Valor unitário</th>
+                <th>Subtotal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Comedouro lento antiengasgo</td>
+                <td><input type="number" value="2" min="1" aria-label="Quantidade do comedouro"></td>
+                <td>R$ 39,90</td>
+                <td>R$ 79,80</td>
+              </tr>
+              <tr>
+                <td>Peitoral ajustável</td>
+                <td><input type="number" value="1" min="1" aria-label="Quantidade do peitoral"></td>
+                <td>R$ 59,90</td>
+                <td>R$ 59,90</td>
+              </tr>
+              <tr>
+                <td>Tapete higiênico com 30 unidades</td>
+                <td><input type="number" value="1" min="1" aria-label="Quantidade do tapete"></td>
+                <td>R$ 49,90</td>
+                <td>R$ 49,90</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <label for="cupom">Cupom de desconto</label>
+        <input type="text" id="cupom" name="cupom">
+
+        <p>Subtotal: R$ 189,60</p>
+        <p>Desconto do selo Filhote (5%): - R$ 9,48</p>
+        <p>Frete: R$ 12,90</p>
+        <p class="total">Total: R$ 193,02</p>
+
+        <a class="botao" href="produtos.html">Continuar comprando</a>
+        <button class="botao" type="submit">Finalizar compra</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>PetHouse</strong><br>Tudo para o seu pet.</p>
+    <p>© 2026 PetHouse</p>
+  </footer>
+</body>
+</html>

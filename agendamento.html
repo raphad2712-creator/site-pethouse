@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agendamento | PetHouse</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <a class="marca" href="index.html">PetHouse</a>
+    <nav aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="fornecedores.html">Fornecedores</a>
+      <a href="orcamentos.html">Orçamentos</a>
+      <a href="feedbacks.html">Feedbacks</a>
+      <a href="fidelidade.html">Fidelidade</a>
+      <a href="agendamento.html" aria-current="page">Agendamento</a>
+      <a href="carrinho.html">Carrinho</a>
+      <a href="contato.html">Contato</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="agendamento">
+      <div class="titulo">
+        <p class="destaque">Cuidado na loja</p>
+        <h1>Agendamento de serviços</h1>
+        <p>Escolha o serviço, a data e o horário para o atendimento do seu pet.</p>
+      </div>
+      <div class="tabela">
+        <table>
+          <thead>
+            <tr>
+              <th>Serviço</th>
+              <th>Duração</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Banho</td>
+              <td>1 hora</td>
+              <td>R$ 60,00</td>
+            </tr>
+            <tr>
+              <td>Tosa higiênica</td>
+              <td>40 minutos</td>
+              <td>R$ 45,00</td>
+            </tr>
+            <tr>
+              <td>Banho e tosa</td>
+              <td>1 hora e 30 minutos</td>
+              <td>R$ 95,00</td>
+            </tr>
+            <tr>
+              <td>Consulta veterinária</td>
+              <td>30 minutos</td>
+              <td>R$ 120,00</td>
+            </tr>
+            <tr>
+              <td>Vacinação</td>
+              <td>20 minutos</td>
+              <td>R$ 80,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Atendimento de segunda a sábado, das 9h às 18h.</p>
+    </section>
+
+    <section id="formulario-agendamento">
+      <form action="mailto:contato@pethouse.com.br" method="post" enctype="text/plain">
+        <label for="tutor">Nome do tutor</label>
+        <input type="text" id="tutor" name="tutor" required>
+
+        <label for="celular">Telefone</label>
+        <input type="tel" id="celular" name="celular" required>
+
+        <label for="pet">Nome do pet</label>
+        <input type="text" id="pet" name="pet" required>
+
+        <label for="especie">Espécie</label>
+        <select id="especie" name="especie">
+          <option>Cão</option>
+          <option>Gato</option>
+        </select>
+
+        <label for="servico">Serviço</label>
+        <select id="servico" name="servico">
+          <option>Banho</option>
+          <option>Tosa higiênica</option>
+          <option>Banho e tosa</option>
+          <option>Consulta veterinária</option>
+          <option>Vacinação</option>
+        </select>
+
+        <label for="data">Data</label>
+        <input type="date" id="data" name="data" required>
+
+        <label for="horario">Horário</label>
+        <select id="horario" name="horario">
+          <option>09:00</option>
+          <option>10:00</option>
+          <option>11:00</option>
+          <option>13:00</option>
+          <option>14:00</option>
+          <option>15:00</option>
+          <option>16:00</option>
+          <option>17:00</option>
+        </select>
+
+        <label for="observacoes">Observações</label>
+        <textarea id="observacoes" name="observacoes" rows="4"></textarea>
+
+        <button class="botao" type="submit">Confirmar agendamento</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>PetHouse</strong><br>Tudo para o seu pet.</p>
+    <p>© 2026 PetHouse</p>
+  </footer>
+</body>
+</html>
