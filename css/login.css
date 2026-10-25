@@ -11,7 +11,7 @@ body {
   color: white;
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .4)), url("../imagens/fundo_login.jpg") center / cover;
+  background: url("../imagens/fundo_login.jpg") center / cover;
 }
 
 .cabecalho, footer {
@@ -55,7 +55,6 @@ main {
   border: 1px solid rgba(255, 255, 255, .4);
   border-radius: 14px;
   background: rgba(24, 42, 31, .85);
-  backdrop-filter: blur(12px);
   box-shadow: 0 12px 35px rgba(0, 0, 0, .25);
 }
 
