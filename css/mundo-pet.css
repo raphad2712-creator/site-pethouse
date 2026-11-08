@@ -1,0 +1,119 @@
+/*Mundo Pet*/
+
+/*Apresentação*/
+.mundo-intro {
+  text-align: center;
+  background-color: #ffe9d9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.mundo-intro .destaque {
+  color: #c9572b;
+  font-weight: bold;
+}
+
+.mundo-intro h1 {
+  margin-bottom: 10px;
+}
+
+.mundo-intro h2 {
+  color: #000000;
+  font-size: 20px;
+}
+
+.mundo-intro p {
+  max-width: 720px;
+  margin: auto;
+}
+
+/* Cartões de Conteúdo */
+.cartao {
+  background-color: white;
+  border: 1px solid #e8dfd3;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+/* Efeito ao passar o mouse no cartão */
+.cartao:hover {
+  border-color: #000000;
+}
+
+/* Título e Ícone do Cartão */
+.faixa {
+  margin-bottom: 15px;
+}
+
+.faixa span {
+  background-color: #edf4ef;
+  font-size: 22px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.faixa h2 {
+  color: #263e36;
+  font-size: 19px;
+}
+
+/* Imagem do Cartão */
+.conteudo-cartao img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* Textos e Listas */
+.texto-cartao h3 {
+  color: #302c28;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.fatos {
+  margin: 0;
+  padding-left: 20px;
+  list-style: disc;
+  font-size: 14px;
+}
+
+.fatos li {
+  margin-bottom: 8px;
+}
+
+/* Tag da Espécie */
+.especies {
+  background-color: #edf4ef;
+  color: #263e36;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/* Links das Fontes */
+.fonte {
+  font-size: 12px;
+  color: #302c28;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.fonte a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.fonte a:hover {
+  text-decoration: underline;
+}
