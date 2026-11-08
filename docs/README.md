@@ -10,37 +10,37 @@ Trabalho prático de Desenvolvimento Web do Grupo 7, do curso de Engenharia de S
 
 Aplicar os conteúdos de estruturação de páginas, semântica HTML, formulários, tabelas, imagens, mídias incorporadas e responsividade em um site com navegação entre páginas. A PetHouse reúne catálogo, informações sobre pets, serviços, orçamento, avaliações e telas demonstrativas de acesso.
 
-## Equipe e contribuições
+## Equipe e responsabilidades
 
-As participações informadas seguem os relatos do grupo. As atribuições sugeridas completam a divisão das 12 páginas e precisam ser confirmadas pelos integrantes; não representam autoria passada comprovada. As horas acrescentadas são estimativas de planejamento, não registros reais. Estefany foi incluída com o nome informado, sem sobrenome.
+Organização das responsabilidades da equipe para as 12 páginas. Os tempos identificados como estimados servem ao planejamento; as demais durações reproduzem relatos do grupo. Esta divisão de trabalho deve ser revisada pelos integrantes antes da entrega.
 
-| Integrante | Participação | Tempo e natureza |
+| Integrante | Responsabilidades | Tempo |
 | --- | --- | --- |
-| Raphael David Silva Freitas | Produtos (informada); Fornecedores (sugerida). | 4 h estimadas para as duas páginas |
-| Ruan Silva Costa | Ajustes na página inicial (informada). | 2 h estimadas |
-| Jioselia Abigail Picco Mollo | Mundo Pet (informada). | Aproximadamente 2 h e alguns minutos relatados |
-| Joana Manuele Freitas Silva | Revisão de CSS e documentação (informada); Fidelidade e Orçamentos (sugeridas). | 3 h relatadas na revisão; mais 2 h estimadas para as páginas sugeridas |
-| Luan de Oliveira Mendes | Criação inicial do Login (informada). | Entre 2 e 3 h relatadas |
-| Klener Nilmar Quispe Cari | Login e acesso ao Cadastro (informada); Agendamento e Carrinho (sugeridas). | 2 h relatadas no Login; mais 3 h estimadas para as páginas sugeridas |
-| João Victor Fava Yamada | Cadastro (informada). | 3 h estimadas |
-| Estefany | Contato e Feedbacks (sugeridas). | 3 h estimadas |
+| Raphael David Silva Freitas | Produtos; Fornecedores. | 4 h estimadas para as duas páginas |
+| Ruan Silva Costa | Ajustes na página inicial. | 2 h estimadas |
+| Jioselia Abigail Picco Mollo | Mundo Pet. | Aproximadamente 2 h e alguns minutos relatados |
+| Joana Manuele Freitas Silva | Revisão de CSS e documentação; Fidelidade e Orçamentos. | 3 h relatadas na revisão; mais 2 h estimadas para as páginas adicionais |
+| Luan de Oliveira Mendes | Criação inicial do Login. | Entre 2 e 3 h relatadas |
+| Klener Nilmar Quispe Cari | Login e acesso ao Cadastro; Agendamento e Carrinho. | 2 h relatadas no Login; mais 3 h estimadas para as páginas adicionais |
+| João Victor Fava Yamada | Cadastro. | 3 h estimadas |
+| Estefany | Contato e Feedbacks. | 3 h estimadas |
 
 ## Divisão das 12 páginas
 
-| Página | Integrante responsável | Origem da atribuição |
-| --- | --- | --- |
-| index.html | Ruan Silva Costa | Informada |
-| produtos.html | Raphael David Silva Freitas | Informada |
-| mundo-pet.html | Jioselia Abigail Picco Mollo | Informada |
-| fornecedores.html | Raphael David Silva Freitas | Sugerida |
-| orcamentos.html | Joana Manuele Freitas Silva | Sugerida |
-| feedbacks.html | Estefany | Sugerida |
-| fidelidade.html | Joana Manuele Freitas Silva | Sugerida |
-| agendamento.html | Klener Nilmar Quispe Cari | Sugerida |
-| carrinho.html | Klener Nilmar Quispe Cari | Sugerida |
-| contato.html | Estefany | Sugerida |
-| login.html | Luan de Oliveira Mendes e Klener Nilmar Quispe Cari | Informada |
-| cadastro.html | João Victor Fava Yamada | Informada |
+| Página | Integrante responsável |
+| --- | --- |
+| index.html | Ruan Silva Costa |
+| produtos.html | Raphael David Silva Freitas |
+| mundo-pet.html | Jioselia Abigail Picco Mollo |
+| fornecedores.html | Raphael David Silva Freitas |
+| orcamentos.html | Joana Manuele Freitas Silva |
+| feedbacks.html | Estefany |
+| fidelidade.html | Joana Manuele Freitas Silva |
+| agendamento.html | Klener Nilmar Quispe Cari |
+| carrinho.html | Klener Nilmar Quispe Cari |
+| contato.html | Estefany |
+| login.html | Luan de Oliveira Mendes e Klener Nilmar Quispe Cari |
+| cadastro.html | João Victor Fava Yamada |
 
 ## Páginas e navegação
 
@@ -128,7 +128,7 @@ Esta relação resume os itens de implementação e documentação. A entrega so
 | Caminhos e extensões das imagens | Imagens e banners referenciados existem; o exemplo de vídeo usa uma capa .png disponível |
 | Mídia de apresentação | O iframe do mapa atende ao tipo de mídia previsto; vídeo é opcional |
 | Vídeo de serviços | Arquivo ainda não recebido; nenhum player quebrado na página |
-| Google Maps | Incorporado; localização definitiva ainda não informada |
+| Google Maps | Incorporado; localização definitiva pendente |
 | README com proposta, execução, estrutura e tecnologias | Este arquivo |
 | Identificação e divisão de tarefas | Tabela de equipe acima |
 | Diário de bordo | docs/diario.md, com acontecimentos confirmados |
@@ -145,7 +145,7 @@ Login, Cadastro, Carrinho e Fidelidade são demonstrações estáticas: não há
 
 - Enviar o vídeo somente se o grupo quiser incluí-lo além do iframe que já funciona.
 - Informar o endereço real para configurar a localização definitiva no mapa.
-- Confirmar a divisão sugerida e substituir estimativas por horas reais quando houver registro.
+- Revisar a divisão de responsabilidades e substituir estimativas por horas reais quando houver registro.
 - Confirmar com o professor se os comentários no código são obrigatórios.
 
 ## Fontes do registro

@@ -2,16 +2,16 @@
 
 Duração de referência: 7 minutos. Ensaiar com a versão do ZIP entregue ao professor. As falas abaixo são sugestões para a apresentação, sem atribuir tarefas de desenvolvimento que não foram relatadas.
 
-| Tempo | Integrante | Demonstração sugerida |
+| Tempo | Integrante | Demonstração |
 | --- | --- | --- |
 | 0:00 a 0:40 | Ruan Silva Costa | Apresentar a proposta, a página inicial e uma pergunta frequente. |
 | 0:40 a 1:40 | Raphael David Silva Freitas | Apresentar Produtos e a organização do catálogo; mostrar Fornecedores na divisão proposta. |
 | 1:40 a 2:30 | Jioselia Abigail Picco Mollo | Mostrar os artigos e as imagens de Mundo Pet. |
 | 2:30 a 3:10 | Luan de Oliveira Mendes | Explicar a criação inicial do Login e a validação do usuário. |
-| 3:10 a 4:00 | Klener Nilmar Quispe Cari | Explicar sua participação no Login; apresentar Agendamento e Carrinho como páginas da divisão sugerida, após confirmar a atribuição. |
+| 3:10 a 4:00 | Klener Nilmar Quispe Cari | Explicar sua participação no Login; apresentar Agendamento e Carrinho na divisão de responsabilidades da equipe. |
 | 4:00 a 4:50 | João Victor Fava Yamada | Apresentar Cadastro e os campos obrigatórios. |
-| 4:50 a 5:50 | Estefany | Apresentar Contato, o mapa e Feedbacks; a atribuição de desenvolvimento é sugerida e deve ser confirmada. |
-| 5:50 a 7:00 | Joana Manuele Freitas Silva | Mostrar CSS, documentação e a divisão sugerida de Fidelidade e Orçamentos; encerrar com os limites do site estático. |
+| 4:50 a 5:50 | Estefany | Apresentar Contato, o mapa e Feedbacks na divisão de responsabilidades da equipe. |
+| 5:50 a 7:00 | Joana Manuele Freitas Silva | Mostrar CSS, documentação e a divisão de Fidelidade e Orçamentos; encerrar com os limites do site estático. |
 
 ## Demonstração técnica
 

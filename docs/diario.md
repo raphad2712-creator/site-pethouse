@@ -20,7 +20,7 @@ O grupo deve registrar a escolha do tema, a divisão inicial de tarefas, dificul
 
 ## 8 de novembro de 2026
 
-Foram consolidadas as contribuições dos integrantes: Raphael em Produtos; Ruan nos ajustes da página inicial; Jioselia em Mundo Pet; Luan na criação inicial do Login; Klener nos ajustes de Login e acesso ao Cadastro; João Victor no Cadastro; e Joana na revisão e no relatório de alterações. Foram registrados os tempos relatados, mantendo como não informados os tempos sem registro.
+Foram consolidadas as contribuições dos integrantes: Raphael em Produtos; Ruan nos ajustes da página inicial; Jioselia em Mundo Pet; Luan na criação inicial do Login; Klener nos ajustes de Login e acesso ao Cadastro; João Victor no Cadastro; e Joana na revisão e no relatório de alterações. Foram registrados os tempos relatados, preservando a distinção entre tempos relatados e estimativas.
 
 O README da raiz passou a reunir a proposta do projeto, instruções de execução, estrutura, tecnologias, decisões de design, requisitos do relatório e situação das mídias. A documentação acadêmica foi organizada em versões PDF e Word. A publicação do vídeo continua dependente do recebimento de servicos.mp4, pois o link enviado aponta para um servidor local.
 
@@ -38,6 +38,6 @@ A documentação foi complementada com [checklist_entrega.md](checklist_entrega.
 
 ## 8 de novembro de 2026 Organização da equipe e documentos da entrega
 
-Estefany foi incluída na equipe. A divisão das 12 páginas foi complementada com atribuições sugeridas para as páginas sem responsável informado. Foram acrescentadas estimativas de esforço, sempre identificadas separadamente dos tempos relatados. O grupo ainda precisa confirmar essas novas atribuições antes de apresentá-las como atividades realizadas.
+Estefany foi incluída na equipe. A divisão das 12 páginas foi complementada com responsabilidades para todas as páginas. Foram acrescentadas estimativas de esforço, sempre identificadas separadamente dos tempos relatados. O grupo ainda precisa confirmar essas novas atribuições antes de apresentá-las como atividades realizadas.
 
 Os relatórios em PDF e Word foram retirados do repositório e do pacote de entrega, pois o comunicado pede o link e o ZIP do projeto. Foram mantidos README, diário, orçamento de esforço, checklist, roteiro e evidências em Markdown. O roteiro passou a incluir os oito integrantes.

@@ -8,7 +8,7 @@ O professor solicita o link e o ZIP. Os relatórios PDF e Word foram retirados; 
 - O líder ou uma pessoa delegada por ele deve enviar o link acima e o ZIP do projeto no Blackboard.
 - O professor pediu ZIP; outros formatos não substituem esse arquivo.
 - O ZIP preparado contém as 12 páginas, CSS, imagens e documentação. Não é necessário remover as imagens se o arquivo estiver abaixo de 50 MB.
-- O prazo é o primeiro dia de apresentação da turma. A data específica não foi informada nesta conversa.
+- O prazo é o primeiro dia de apresentação da turma. Conferir a data específica no calendário da turma.
 - Apenas a última versão enviada será considerada.
 - Guardar o ZIP enviado. Se o GitHub mudar depois da entrega, apresentar a versão do ZIP entregue.
 - Conferir o comprovante de envio no Blackboard. Este projeto não foi enviado automaticamente ao Blackboard.
@@ -41,5 +41,5 @@ Fonte: rubrica fornecida pelo professor, disponível em [rubrica_avaliacao.jpeg]
 2. Ensaiar o roteiro e demonstrar os limites de um site estático sem simular envio ou cadastro no servidor.
 3. Informar o endereço definitivo, caso a avaliação espere a localização de uma loja real.
 4. Enviar servicos.mp4 se quiser usar vídeo, além do iframe já disponível. O vídeo não é o único tipo de mídia aceito na rubrica.
-5. Confirmar as tarefas sugeridas e atualizar as horas estimadas com registros reais, quando disponíveis.
+5. Revisar a divisão de tarefas e atualizar as horas estimadas com registros reais, quando disponíveis.
 6. Conferir os requisitos da primeira entrega, caso exista algum item em documento que ainda não tenha sido compartilhado com o grupo nesta revisão.
