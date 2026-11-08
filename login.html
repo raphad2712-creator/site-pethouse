@@ -8,20 +8,24 @@
   <title>Login | PetHouse</title>
 </head>
 <body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
   <header class="cabecalho">
     <a class="marca" href="index.html">PetHouse</a>
     <a href="index.html">Voltar ao início</a>
   </header>
 
-  <main>
+  <main id="conteudo">
     <section class="container" aria-labelledby="titulo-login">
       <h1 id="titulo-login">Login</h1>
       <form action="produtos.html">
-        <label for="usuario">Usuário</label>
-        <input id="usuario" type="text" pattern="[A-Za-z0-9_]{3,20}" title="Use de 3 a 20 letras sem acento, números ou sublinhado" placeholder="Digite seu usuário" autocomplete="off" required>
+        <p class="ajuda">Os campos com * são obrigatórios.</p>
+        <label for="usuario">Usuário *</label>
+        <input id="usuario" type="text" pattern="[A-Za-z0-9_]{3,20}" title="Use de 3 a 20 letras sem acento, números ou sublinhado" placeholder="Digite seu usuário" required autocomplete="username" aria-describedby="ajuda-usuario">
+        <small class="ajuda" id="ajuda-usuario">Use de 3 a 20 letras sem acento, números ou sublinhado.</small>
 
-        <label for="senha">Senha</label>
-        <input id="senha" type="password" minlength="6" placeholder="Digite sua senha" autocomplete="off" required>
+        <label for="senha">Senha *</label>
+        <input id="senha" type="password" minlength="6" placeholder="Digite sua senha" required autocomplete="current-password" aria-describedby="ajuda-senha">
+        <small class="ajuda" id="ajuda-senha">Use no mínimo 6 caracteres.</small>
 
         <button type="submit">Entrar</button>
         <p>Não tem uma conta?</p>

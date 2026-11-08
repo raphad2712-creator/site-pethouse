@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 
   <header class="cabecalho">
     <a class="marca" href="index.html">PetHouse</a>
@@ -25,7 +26,7 @@
     </nav>
   </header>
 
-  <main>
+  <main id="conteudo">
     <section id="agendamento">
       <header class="titulo">
         <p class="destaque">Cuidado na loja</p>
@@ -73,24 +74,19 @@
       <p>Atendimento de segunda a sábado, das 9h às 18h.</p>
     </section>
 
-    <section>
-      <h2>Conheça nossos serviços</h2>
-      <p>Vídeo em breve.</p>
-      <video controls preload="none" poster="imagens/gatohigiene.png" aria-label="Conheça nossos serviços">
-        <source src="videos/servicos.mp4" type="video/mp4">
-        Seu navegador não suporta vídeo. <a href="videos/servicos.mp4">Baixar o vídeo</a>.
-      </video>
-    </section>
 
     <section id="formulario-agendamento">
+      <h2>Solicite um horário</h2>
       <form action="mailto:contato@pethouse.com.br" method="post" enctype="text/plain">
-        <label for="tutor">Nome do tutor</label>
-        <input type="text" id="tutor" minlength="3" name="tutor" required>
+        <p class="ajuda">Os campos com * são obrigatórios.</p>
+        <label for="tutor">Nome do tutor *</label>
+        <input type="text" id="tutor" minlength="3" name="tutor" required autocomplete="name">
 
-        <label for="celular">Telefone</label>
-        <input type="tel" pattern="[0-9]{10,11}" inputmode="numeric" title="Digite o DDD e o telefone, com 10 ou 11 números, sem espaços" id="celular" name="celular" required>
+        <label for="celular">Telefone *</label>
+        <input type="tel" pattern="[0-9]{10,11}" inputmode="numeric" title="Digite o DDD e o telefone, com 10 ou 11 números, sem espaços" id="celular" name="celular" required autocomplete="tel" aria-describedby="ajuda-celular">
+        <small class="ajuda" id="ajuda-celular">Digite o DDD e o telefone, com 10 ou 11 números, sem espaços.</small>
 
-        <label for="pet">Nome do pet</label>
+        <label for="pet">Nome do pet *</label>
         <input type="text" id="pet" name="pet" required>
 
         <label for="especie">Espécie</label>
@@ -108,7 +104,7 @@
           <option>Vacinação</option>
         </select>
 
-        <label for="data">Data</label>
+        <label for="data">Data *</label>
         <input type="date" id="data" name="data" required>
 
         <label for="horario">Horário</label>

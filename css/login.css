@@ -1,8 +1,5 @@
 body {
-  min-height: 100vh;
   min-height: 100svh;
-  display: flex;
-  flex-direction: column;
   color: white;
   background: url("../imagens/fundo_login_hd.webp") center / cover;
 }
@@ -36,7 +33,6 @@ main {
 
 h1 {
   text-align: center;
-  font-family: Georgia, serif;
 }
 
 input {
@@ -93,4 +89,8 @@ a:focus-visible, input:focus-visible, button:focus-visible {
 
 .container a {
   color: white;
+}
+
+.container .ajuda {
+  color: #f5e7d4;
 }

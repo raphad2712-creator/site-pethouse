@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 
   <header class="cabecalho">
     <a class="marca" href="index.html">PetHouse</a>
@@ -25,14 +26,14 @@
     </nav>
   </header>
 
-  <main>
+  <main id="conteudo">
     <section id="carrinho">
       <header class="titulo">
         <p class="destaque">Sua compra</p>
         <h1>Carrinho de compras</h1>
-        <p>Confira os itens escolhidos antes de finalizar o pedido.</p>
+        <p>Confira um exemplo de pedido e solicite um orçamento para confirmar os valores.</p>
       </header>
-      <form action="#" method="post">
+      <form action="orcamentos.html" method="get">
         <div class="tabela">
           <table>
             <thead>
@@ -46,19 +47,19 @@
             <tbody>
               <tr>
                 <td>Comedouro lento antiengasgo</td>
-                <td><input type="number" value="2" min="1" aria-label="Quantidade do comedouro"></td>
+                <td><input type="number" value="2" min="1" readonly aria-label="Quantidade do comedouro"></td>
                 <td>R$ 39,90</td>
                 <td>R$ 79,80</td>
               </tr>
               <tr>
                 <td>Peitoral ajustável</td>
-                <td><input type="number" value="1" min="1" aria-label="Quantidade do peitoral"></td>
+                <td><input type="number" value="1" min="1" readonly aria-label="Quantidade do peitoral"></td>
                 <td>R$ 59,90</td>
                 <td>R$ 59,90</td>
               </tr>
               <tr>
                 <td>Tapete higiênico com 30 unidades</td>
-                <td><input type="number" value="1" min="1" aria-label="Quantidade do tapete"></td>
+                <td><input type="number" value="1" min="1" readonly aria-label="Quantidade do tapete"></td>
                 <td>R$ 49,90</td>
                 <td>R$ 49,90</td>
               </tr>
@@ -66,7 +67,8 @@
           </table>
         </div>
 
-        <label for="cupom">Cupom de desconto</label>
+        <p class="ajuda">As quantidades e os totais abaixo são ilustrativos.</p>
+        <label for="cupom">Cupom para consulta no orçamento</label>
         <input type="text" id="cupom" name="cupom">
 
         <p>Subtotal: R$ 189,60</p>
@@ -75,7 +77,7 @@
         <p class="total">Total: R$ 193,02</p>
 
         <a class="botao" href="produtos.html">Continuar comprando</a>
-        <button class="botao" type="submit">Finalizar compra</button>
+        <button class="botao" type="submit">Solicitar orçamento</button>
       </form>
     </section>
   </main>

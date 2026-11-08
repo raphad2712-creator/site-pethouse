@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 
   <header class="cabecalho">
     <a class="marca" href="index.html">PetHouse</a>
@@ -26,7 +27,7 @@
     </nav>
   </header>
 
-  <main>
+  <main id="conteudo">
     <section class="hero" id="inicio">
       <div class="texto-intro">
         <p class="destaque">Cuidado em cada escolha</p>
@@ -102,18 +103,27 @@
       </ul>
     </section>
 
+    <section>
+      <h2>Dúvidas frequentes</h2>
+      <details>
+        <summary>Como consultar um produto?</summary>
+        <p>Abra o catálogo, confira a descrição e o preço e use o botão de consulta do produto escolhido.</p>
+      </details>
+      <details>
+        <summary>Como solicitar um serviço?</summary>
+        <p>Na página de Agendamento, consulte os valores e preencha os dados do tutor e do pet. O envio abre seu aplicativo de e-mail.</p>
+      </details>
+      <details>
+        <summary>Onde encontro dicas de cuidados?</summary>
+        <p>A página Mundo Pet reúne informações sobre alimentação, higiene, saúde e diversão.</p>
+        <a href="mundo-pet.html">Ler dicas no Mundo Pet</a>
+      </details>
+    </section>
+
     <section class="chamada">
       <h2>Precisa de ajuda para escolher?</h2>
       <p>Fale com a PetHouse para tirar dúvidas sobre produtos e serviços.</p>
       <a class="botao" href="contato.html">Entrar em contato</a>
-    </section>
-    <section>
-      <h2>Conheça a PetHouse</h2>
-      <p>Vídeo em breve.</p>
-      <video controls preload="none" poster="imagens/chowchow.jpg" aria-label="Conheça a PetHouse">
-        <source src="videos/apresentacao.mp4" type="video/mp4">
-        Seu navegador não suporta vídeo. <a href="videos/apresentacao.mp4">Baixar o vídeo</a>.
-      </video>
     </section>
   </main>
 

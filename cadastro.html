@@ -4,33 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Cadastro | PetHouse</title>
   </head>
   <body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
     <header class="cabecalho">
       <a class="marca" href="index.html">PetHouse</a>
       <a href="index.html">Voltar ao início</a>
     </header>
-  <main>
+  <main id="conteudo">
     <section class="container" aria-labelledby="titulo-cadastro">
       <h1 id="titulo-cadastro">Cadastro</h1>
 
       <form action="login.html">
-        <label for="nome">Nome completo</label>
-        <input id="nome" type="text" minlength="3" placeholder="Digite seu nome completo" required>
+        <p class="ajuda">Os campos com * são obrigatórios.</p>
+        <label for="nome">Nome completo *</label>
+        <input id="nome" type="text" minlength="3" placeholder="Digite seu nome completo" required autocomplete="name">
 
-        <label for="usuario">Usuário</label>
-        <input id="usuario" type="text" pattern="[A-Za-z0-9_]{3,20}" title="Use de 3 a 20 letras sem acento, números ou sublinhado" placeholder="Crie seu usuário" required>
+        <label for="usuario">Usuário *</label>
+        <input id="usuario" type="text" pattern="[A-Za-z0-9_]{3,20}" title="Use de 3 a 20 letras sem acento, números ou sublinhado" placeholder="Crie seu usuário" required autocomplete="username" aria-describedby="ajuda-usuario">
+        <small class="ajuda" id="ajuda-usuario">Use de 3 a 20 letras sem acento, números ou sublinhado.</small>
 
-        <label for="email">E-mail</label>
-        <input id="email" type="email" placeholder="Digite seu e-mail" required>
+        <label for="email">E-mail *</label>
+        <input id="email" type="email" placeholder="Digite seu e-mail" required autocomplete="email" aria-describedby="ajuda-email">
+        <small class="ajuda" id="ajuda-email">Informe um e-mail no formato nome@exemplo.com.</small>
 
-        <label for="senha">Senha</label>
-        <input id="senha" type="password" minlength="6" placeholder="Crie sua senha" required>
+        <label for="senha">Senha *</label>
+        <input id="senha" type="password" minlength="6" placeholder="Crie sua senha" required autocomplete="new-password" aria-describedby="ajuda-senha">
+        <small class="ajuda" id="ajuda-senha">Use no mínimo 6 caracteres.</small>
 
-        <label for="confirmar-senha">Confirmar senha</label>
-        <input id="confirmar-senha" type="password" minlength="6" placeholder="Digite sua senha novamente" required>
+        <label for="confirmar-senha">Confirmar senha *</label>
+        <input id="confirmar-senha" type="password" minlength="6" placeholder="Digite sua senha novamente" required autocomplete="new-password" aria-describedby="ajuda-confirmar-senha">
+        <small class="ajuda" id="ajuda-confirmar-senha">Repita a senha escolhida.</small>
 
         <button type="submit">Cadastrar</button>
       </form>

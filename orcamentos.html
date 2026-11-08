@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 
   <header class="cabecalho">
     <a class="marca" href="index.html">PetHouse</a>
@@ -25,7 +26,7 @@
     </nav>
   </header>
 
-  <main>
+  <main id="conteudo">
     <section id="orcamentos">
       <header class="titulo">
         <p class="destaque">Compras em quantidade</p>
@@ -33,14 +34,17 @@
         <p>Preencha o formulário e responderemos com uma proposta em até 2 dias úteis.</p>
       </header>
       <form action="mailto:contato@pethouse.com.br" method="post" enctype="text/plain">
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" minlength="3" name="nome" required>
+        <p class="ajuda">Os campos com * são obrigatórios.</p>
+        <label for="nome">Nome *</label>
+        <input type="text" id="nome" minlength="3" name="nome" required autocomplete="name">
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" required>
+        <label for="email">E-mail *</label>
+        <input type="email" id="email" name="email" required autocomplete="email" aria-describedby="ajuda-email">
+        <small class="ajuda" id="ajuda-email">Informe um e-mail no formato nome@exemplo.com.</small>
 
         <label for="telefone">Telefone</label>
-        <input type="tel" pattern="[0-9]{10,11}" inputmode="numeric" title="Digite o DDD e o telefone, com 10 ou 11 números, sem espaços" id="telefone" name="telefone">
+        <input type="tel" pattern="[0-9]{10,11}" inputmode="numeric" title="Digite o DDD e o telefone, com 10 ou 11 números, sem espaços" id="telefone" name="telefone" autocomplete="tel" aria-describedby="ajuda-telefone">
+        <small class="ajuda" id="ajuda-telefone">Digite o DDD e o telefone, com 10 ou 11 números, sem espaços.</small>
 
         <label for="categoria">Categoria de interesse</label>
         <select id="categoria" name="categoria">
@@ -52,7 +56,7 @@
           <option>Transporte</option>
         </select>
 
-        <label for="quantidade">Quantidade estimada de itens</label>
+        <label for="quantidade">Quantidade estimada de itens *</label>
         <input type="number" id="quantidade" name="quantidade" min="1" required>
 
         <label for="prazo">Prazo desejado para entrega</label>

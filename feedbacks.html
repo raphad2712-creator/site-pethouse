@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 
   <header class="cabecalho">
     <a class="marca" href="index.html">PetHouse</a>
@@ -25,7 +26,7 @@
     </nav>
   </header>
 
-  <main>
+  <main id="conteudo">
     <section id="avaliacoes">
       <header class="titulo">
         <p class="destaque">Opinião dos clientes</p>
@@ -57,8 +58,9 @@
     <section id="enviar-feedback">
       <h2>Deixe a sua opinião</h2>
       <form action="mailto:contato@pethouse.com.br" method="post" enctype="text/plain">
-        <label for="autor">Nome</label>
-        <input type="text" id="autor" name="autor" required>
+        <p class="ajuda">Os campos com * são obrigatórios.</p>
+        <label for="autor">Nome *</label>
+        <input type="text" minlength="3" id="autor" name="autor" required autocomplete="name">
 
         <label for="nota">Nota</label>
         <select id="nota" name="nota">
@@ -69,8 +71,8 @@
           <option>1 - Péssimo</option>
         </select>
 
-        <label for="comentario">Comentário</label>
-        <textarea id="comentario" name="comentario" rows="4" required></textarea>
+        <label for="comentario">Comentário (mínimo de 10 caracteres) *</label>
+        <textarea id="comentario" name="comentario" minlength="10" rows="4" required></textarea>
 
         <button class="botao" type="submit">Enviar feedback</button>
       </form>
