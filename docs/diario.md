@@ -17,3 +17,9 @@ A documentação passou a incluir instruções para abrir o site, organização 
 ## Registros a complementar
 
 O grupo deve registrar a escolha do tema, a divisão inicial de tarefas, dificuldades encontradas e testes realizados em seus próprios aparelhos, com as datas reais. Não há confirmação das atividades datadas entre 20 de outubro e 5 de novembro descritas no relatório recebido.
+
+## 8 de novembro de 2026
+
+Foram consolidadas as contribuições dos integrantes: Raphael em Produtos; Ruan nos ajustes da página inicial; Jioselia em Mundo Pet; Luan na criação inicial do Login; Klener nos ajustes de Login e acesso ao Cadastro; João Victor no Cadastro; e Joana na revisão e no relatório de alterações. Foram registrados os tempos relatados, mantendo como não informados os tempos sem registro.
+
+O README da raiz passou a reunir a proposta do projeto, instruções de execução, estrutura, tecnologias, decisões de design, requisitos do relatório e situação das mídias. A documentação acadêmica foi organizada em versões PDF e Word. A publicação do vídeo continua dependente do recebimento de servicos.mp4, pois o link enviado aponta para um servidor local.
