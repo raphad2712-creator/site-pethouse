@@ -41,3 +41,9 @@ A documentação foi complementada com [checklist_entrega.md](checklist_entrega.
 Estefany foi incluída na equipe. A divisão das 12 páginas foi complementada com responsabilidades para todas as páginas. Foram acrescentadas estimativas de esforço, sempre identificadas separadamente dos tempos relatados. O grupo ainda precisa confirmar essas novas atribuições antes de apresentá-las como atividades realizadas.
 
 Os relatórios em PDF e Word foram retirados do repositório e do pacote de entrega, pois o comunicado pede o link e o ZIP do projeto. Foram mantidos README, diário, orçamento de esforço, checklist, roteiro e evidências em Markdown. O roteiro passou a incluir os oito integrantes.
+
+## 8 de novembro de 2026 Vídeo e revisão do README
+
+Foi incorporado à página de Agendamento o vídeo “Como dar banho em cachorro em casa?”, da Petz TV, pelo player do YouTube. A incorporação usa iframe com título, proporção 16:9 e largura adaptável, sem adicionar JavaScript ou arquivo MP4 ao projeto. A origem do vídeo e um link para o YouTube aparecem na página.
+
+O README foi reduzido à apresentação do projeto, execução, equipe, estrutura, tecnologias, decisões de design, mídias e links para diário e orçamento. As verificações detalhadas e o roteiro permanecem em docs.

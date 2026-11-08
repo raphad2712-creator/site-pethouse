@@ -22,7 +22,7 @@ O comunicado prevê perda de 2 pontos por falta de entrega no prazo. Também des
 | Identidade visual unificada | 1,00 | Cores compartilhadas, fonte Arial, botões e cartões com estilo comum | Implementado |
 | Semântica e CSS | 0,50 | header, nav, main, section, article, footer e títulos; estilos correspondentes | Implementado |
 | Formulários | 0,50 | label/for, required, type, pattern, minlength, dicas e validação nativa | Implementado e verificado nos casos descritos em evidencias.md |
-| Mídia incorporada | 0,20 | iframe responsivo do Google Maps, com título e link externo | Carregamento verificado; endereço da loja ainda ilustrativo |
+| Mídia incorporada | 0,20 | Vídeo da Petz TV em Agendamento e iframe do Google Maps em Contato, ambos responsivos | Mídias externas dependem de internet; endereço da loja ilustrativo |
 | Qualidade do CSS | 0,80 | Variáveis, regras agrupadas, utilidades e arquivos específicos | Implementado; comentários claros foram omitidos por solicitação de código sem comentários |
 | Conteúdo e organização geral | 0,30 | README e pasta docs com diário, orçamento, documentação em Markdown e checklist | Organizado |
 | Diário de bordo | 0,30 | Entradas datadas, decisões, limitações e links de evidência | Atualizado com registros confirmados |
@@ -40,6 +40,6 @@ Fonte: rubrica fornecida pelo professor, disponível em [rubrica_avaliacao.jpeg]
 1. Confirmar com o professor se os comentários no CSS são obrigatórios para a faixa Excelente. O código foi mantido sem comentários por orientação de entrega do grupo.
 2. Ensaiar o roteiro e demonstrar os limites de um site estático sem simular envio ou cadastro no servidor.
 3. Informar o endereço definitivo, caso a avaliação espere a localização de uma loja real.
-4. Enviar servicos.mp4 se quiser usar vídeo, além do iframe já disponível. O vídeo não é o único tipo de mídia aceito na rubrica.
+4. Conferir a reprodução do vídeo da Petz TV e o carregamento do mapa antes da apresentação. Não é necessário um arquivo MP4 local.
 5. Revisar a divisão de tarefas e atualizar as horas estimadas com registros reais, quando disponíveis.
 6. Conferir os requisitos da primeira entrega, caso exista algum item em documento que ainda não tenha sido compartilhado com o grupo nesta revisão.

@@ -323,6 +323,14 @@ a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visib
   border-radius: var(--raio-card);
 }
 
+.video-servicos {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: var(--raio-card);
+}
+
 details {
   margin-bottom: 15px;
 }
