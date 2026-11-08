@@ -110,6 +110,22 @@ figure {
 
 .pets {
   height: 280px;
+  overflow: hidden;
+}
+
+.pets img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .texto-intro, .hero .pets {
+  min-width: 0;
+}
+
+.chamada {
+  text-align: center;
+  background: #ffe9d9;
 }
 
 ul {
