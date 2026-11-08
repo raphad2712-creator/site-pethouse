@@ -1,17 +1,9 @@
-
-
-
 .mundo-intro {
   text-align: center;
   background-color: #ffe9d9;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
-}
-
-.mundo-intro .destaque {
-  color: #c9572b;
-  font-weight: bold;
 }
 
 .mundo-intro h1 {
@@ -28,7 +20,6 @@
   margin: auto;
 }
 
-
 .cartao {
   background-color: white;
   border: 1px solid #e8dfd3;
@@ -37,29 +28,17 @@
   margin-bottom: 25px;
 }
 
-
 .cartao:hover {
   border-color: #000000;
 }
-
 
 .faixa {
   margin-bottom: 15px;
 }
 
-.faixa span {
-  background-color: #edf4ef;
-  font-size: 22px;
-  padding: 8px 12px;
-  border-radius: 8px;
-  margin-right: 10px;
-}
-
 .faixa h2 {
   color: #263e36;
-  font-size: 19px;
 }
-
 
 .conteudo-cartao img {
   width: 300px;
@@ -69,7 +48,6 @@
   display: block;
   margin-bottom: 15px;
 }
-
 
 .texto-cartao h3 {
   color: #302c28;
@@ -88,7 +66,6 @@
   margin-bottom: 8px;
 }
 
-
 .especies {
   background-color: #edf4ef;
   color: #263e36;
@@ -100,7 +77,6 @@
   margin-bottom: 10px;
   display: inline-block;
 }
-
 
 .fonte {
   font-size: 12px;

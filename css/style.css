@@ -83,7 +83,7 @@ section {
   padding: var(--padding-secao);
 }
 
-.destaque, .preco {
+.destaque, .preco, .total {
   color: var(--cor-destaque);
   font-weight: bold;
 }
@@ -122,12 +122,12 @@ figure {
   background: #f5f5f5;
 }
 
-.pets {
+.pets, .banner {
   height: 280px;
   overflow: hidden;
 }
 
-.pets img {
+.pets img, .banner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -160,13 +160,13 @@ ul {
   flex: 1;
 }
 
-.produtos {
+.produtos, .cartoes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 
-.produtos li, address, form {
+.produtos li, .cartoes li, address, form {
   padding: 20px;
   border: 1px solid var(--cor-borda);
   border-radius: var(--raio-card);
@@ -189,7 +189,7 @@ ul {
   font-size: 13px;
 }
 
-.preco {
+.preco, .total {
   font-size: 20px;
 }
 
@@ -198,23 +198,9 @@ address {
   overflow-wrap: anywhere;
 }
 
-.login {
-  max-width: 550px;
-  margin: auto;
-}
-
 label {
   display: block;
   margin-bottom: 5px;
-}
-
-input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #aaa;
-  border-radius: 5px;
-  font-size: 16px;
 }
 
 footer {
@@ -226,46 +212,21 @@ footer p {
   margin: 0;
 }
 
-@media (max-width: 700px) {
-  .cabecalho, footer, .hero, .contato, .vantagens {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .produtos {
-    grid-template-columns: 1fr;
-  }
-
-  .hero figure {
-    flex: auto;
-  }
-}
-
 form {
   max-width: 650px;
 }
 
-select, textarea {
+input, select, textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #aaa;
   border-radius: 5px;
-  font-family: Arial, sans-serif;
   font-size: 16px;
 }
 
-.cartoes {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
-
-.cartoes li {
-  padding: 20px;
-  border: 1px solid var(--cor-borda);
-  border-radius: var(--raio-card);
-  background: white;
+select, textarea {
+  font-family: Arial, sans-serif;
 }
 
 .tabela {
@@ -299,28 +260,8 @@ progress {
   height: 20px;
 }
 
-.total {
-  color: var(--cor-destaque);
-  font-size: 20px;
-  font-weight: bold;
-}
-
-@media (max-width: 700px) {
-  .cartoes {
-    grid-template-columns: 1fr;
-  }
-}
-
 .banner {
-  height: 280px;
   margin-bottom: 25px;
-  overflow: hidden;
-}
-
-.banner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 video {
@@ -334,4 +275,19 @@ video {
 a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, button:focus-visible {
   outline: 3px solid var(--cor-destaque);
   outline-offset: 3px;
+}
+
+@media (max-width: 700px) {
+  .cabecalho, footer, .hero, .contato, .vantagens {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .produtos, .cartoes {
+    grid-template-columns: 1fr;
+  }
+
+  .hero figure {
+    flex: auto;
+  }
 }

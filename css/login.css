@@ -37,20 +37,6 @@ main {
 h1 {
   text-align: center;
   font-family: Georgia, serif;
-  font-size: 36px;
-}
-
-.aviso, .ajuda {
-  font-size: 14px;
-  text-align: center;
-}
-
-.aviso {
-  margin: 8px 0 24px;
-}
-
-.ajuda {
-  margin: 18px 0 0;
 }
 
 input {
