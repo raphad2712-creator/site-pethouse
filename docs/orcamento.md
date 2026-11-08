@@ -11,11 +11,11 @@ Organização das responsabilidades da equipe para as 12 páginas. Os tempos ide
 | Luan de Oliveira Mendes | Criação inicial do Login. | Entre 2 e 3 h relatadas |
 | Klener Nilmar Quispe Cari | Login e acesso ao Cadastro; Agendamento e Carrinho. | 2 h relatadas no Login; mais 3 h estimadas para as páginas adicionais |
 | João Victor Fava Yamada | Cadastro. | 3 h estimadas |
-| Estefany | Contato e Feedbacks. | 3 h estimadas |
+| Estefany Isidro Pachacuti | Logo no cabeçalho, ícone da aba e linha laranja de separação no menu. | Aproximadamente 1 h |
 
 ## Uso dos tempos
 
-As durações relatadas correspondem apenas às atividades descritas nos relatos originais. As páginas adicionais de Joana e Klener possuem estimativas adicionais separadas. Os tempos de Raphael, Ruan, João Victor e Estefany são estimados. Não há total real completo ou comparação exata por etapa, pois não existe medição de todas as atividades.
+As durações relatadas correspondem apenas às atividades descritas nos relatos originais. As páginas adicionais de Joana e Klener possuem estimativas adicionais separadas. Os tempos de Raphael, Ruan, João Victor e Estefany Isidro Pachacuti são estimados. Não há total real completo ou comparação exata por etapa, pois não existe medição de todas as atividades.
 
 A divisão das 12 páginas está no README. O Login mantém a participação de Luan e Klener. Antes de apresentar autoria e esforço como concluídos, cada integrante deve conferir suas próprias atividades.
 

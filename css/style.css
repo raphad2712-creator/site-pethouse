@@ -1,6 +1,6 @@
 :root {
   --cor-primaria: #386b5a;
-  --cor-destaque: #c9572b;
+  --cor-destaque: #f96f38;
   --cor-fundo: #fffbf5;
   --cor-texto: #302c28;
   --cor-rodape: #263e36;
@@ -54,10 +54,28 @@ h2 {
   background: white;
 }
 
+.cabecalho {
+  border-bottom: 5px solid var(--cor-destaque);
+}
+
 .marca {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-size: 27px;
   font-weight: bold;
   text-decoration: none;
+  color: inherit;
+}
+
+.logo-marca {
+  display: block;
+  width: 52px;
+  height: auto;
+}
+
+.marca span {
+  line-height: 1;
 }
 
 nav {

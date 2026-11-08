@@ -58,7 +58,7 @@ Foram reunidas as contribuições de Login e Cadastro e atualizada a relação d
 | Luan de Oliveira Mendes | Criação inicial da página de Login. |
 | Klener Nilmar Quispe Cari | Ajustes no Login e inclusão do acesso “novo cadastro”. |
 | João Victor Fava Yamada | Página de Cadastro, conforme a divisão indicada pelo grupo. |
-| Estefany | Inclusão na equipe, com responsabilidade por Contato e Feedbacks; a data de execução dessas páginas ainda precisa ser confirmada. |
+| Estefany Isidro Pachacuti | Inclusão do logo antes do nome PetHouse no cabeçalho, ícone da aba e linha laranja de separação no menu. Aproximadamente 1 hora de trabalho. |
 
 Foi organizada também a distribuição das páginas adicionais: Fornecedores para Raphael; Fidelidade e Orçamentos para Joana; Agendamento e Carrinho para Klener. Essas responsabilidades não possuem datas de execução confirmadas.
 
@@ -73,3 +73,7 @@ Foram verificados e-mail inválido, telefone fora do padrão, quantidade zero, u
 ### Vídeo
 
 Agendamento recebeu o vídeo “Como dar banho em cachorro em casa?”, da Petz TV, com player do YouTube, título, proporção 16:9 e largura adaptável. A página inclui o crédito e um link para assistir no YouTube. O player se ajustou à tela móvel; a reprodução completa não foi confirmada na prévia.
+
+### Identidade visual
+
+Em 8 de novembro, foi integrada a contribuição de Estefany Isidro Pachacuti: logo no cabeçalho e ícone da aba nas 12 páginas, além da linha laranja abaixo do menu. Estefany descreveu aproximadamente 1 hora de trabalho nessas alterações.

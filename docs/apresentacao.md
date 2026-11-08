@@ -10,7 +10,7 @@ Duração de referência: 7 minutos. Ensaiar com a versão do ZIP entregue ao pr
 | 2:30 a 3:10 | Luan de Oliveira Mendes | Explicar a criação inicial do Login e a validação do usuário. |
 | 3:10 a 4:00 | Klener Nilmar Quispe Cari | Explicar sua participação no Login; apresentar Agendamento e Carrinho na divisão de responsabilidades da equipe. |
 | 4:00 a 4:50 | João Victor Fava Yamada | Apresentar Cadastro e os campos obrigatórios. |
-| 4:50 a 5:50 | Estefany | Apresentar Contato, o mapa e Feedbacks na divisão de responsabilidades da equipe. |
+| 4:50 a 5:50 | Estefany Isidro Pachacuti | Mostrar o logo no cabeçalho, o ícone da aba e a linha laranja do menu; explicar os ajustes de identidade visual. |
 | 5:50 a 7:00 | Joana Manuele Freitas Silva | Mostrar CSS, documentação e a divisão de Fidelidade e Orçamentos; encerrar com os limites do site estático. |
 
 ## Demonstração técnica

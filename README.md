@@ -21,7 +21,7 @@ A tabela organiza as responsabilidades pelas páginas. As estimativas de tempo e
 | Luan de Oliveira Mendes | Criação inicial do Login |
 | Klener Nilmar Quispe Cari | Login, acesso ao Cadastro, Agendamento e Carrinho |
 | João Victor Fava Yamada | Cadastro |
-| Estefany | Contato e Feedbacks |
+| Estefany Isidro Pachacuti | Logo no cabeçalho, ícone da aba e linha laranja de separação no menu |
 
 ## Estrutura e tecnologias
 
