@@ -2,9 +2,37 @@
 
 Registro das atividades e revisões do PetHouse. As datas abaixo correspondem aos registros disponíveis no projeto e à organização das contribuições; não indicam necessariamente o dia em que cada integrante começou ou terminou sua página.
 
+## 19 de outubro de 2026
+
+Ruan Silva Costa publicou a primeira versão registrada no repositório, com a página inicial, a página de Produtos, o CSS e o README. Esse registro corresponde à publicação dos arquivos; a participação na criação das páginas segue a divisão de tarefas da equipe.
+
+Referência: [b81e846](https://github.com/raphad2712-creator/site-pethouse/commit/b81e846).
+
+## 21 de outubro de 2026
+
+Raphael David Silva Freitas integrou arquivos de Contato, Fornecedores e Login, imagens do catálogo e atualizações de Produtos e da página inicial. Foram ajustados os estilos compartilhados e simplificada a estrutura do HTML.
+
+O histórico também registra a correção de conflitos do Git e de carregamento do CSS. A revisão concentrou os estilos no arquivo compartilhado para facilitar a manutenção.
+
+Referências: [01d0e70](https://github.com/raphad2712-creator/site-pethouse/commit/01d0e70), [d9b9e48](https://github.com/raphad2712-creator/site-pethouse/commit/d9b9e48) e [652db8f](https://github.com/raphad2712-creator/site-pethouse/commit/652db8f).
+
+## 23 de outubro de 2026
+
+Raphael David Silva Freitas publicou ajustes na apresentação do Login: inclusão do CSS específico e da imagem de fundo, restauração do visual de referência do grupo, posicionamento do cabeçalho no topo e padronização do menu.
+
+Nessa etapa, foi retirado um link de Cadastro que ainda não possuía página correspondente, evitando uma navegação quebrada.
+
+Referências: [5600c91](https://github.com/raphad2712-creator/site-pethouse/commit/5600c91), [679ef60](https://github.com/raphad2712-creator/site-pethouse/commit/679ef60) e [ff583d9](https://github.com/raphad2712-creator/site-pethouse/commit/ff583d9).
+
 ## 25 de outubro de 2026
 
-O histórico do Git registra alterações no Login e a inclusão do Cadastro. A autoria foi organizada posteriormente com base nas contribuições descritas pelo grupo: Luan na criação inicial do Login, Klener nos ajustes dessa página e João Victor no Cadastro.
+Raphael David Silva Freitas publicou a integração das páginas de Agendamento, Carrinho, Feedbacks, Fidelidade e Orçamentos recebidas no ZIP, além de ajustes em Fornecedores e nos menus. O formulário do Login foi centralizado, o rodapé foi separado e a imagem de fundo recebeu uma versão de maior nitidez, sem desfoque ou escurecimento.
+
+João Victor Fava Yamada adicionou a página de Cadastro e alterou o Login para incluir o acesso ao novo formulário. Raphael integrou essas alterações à versão principal por meio do pull request do Cadastro.
+
+Esses registros identificam quem publicou ou integrou as alterações no Git. A criação inicial do Login permanece atribuída a Luan, e os ajustes posteriores descritos pelo grupo permanecem atribuídos a Klener.
+
+Referências: [13525d5](https://github.com/raphad2712-creator/site-pethouse/commit/13525d5), [6a90bc2](https://github.com/raphad2712-creator/site-pethouse/commit/6a90bc2), [27adf2d](https://github.com/raphad2712-creator/site-pethouse/commit/27adf2d), [f261495](https://github.com/raphad2712-creator/site-pethouse/commit/f261495) e [a281ab2](https://github.com/raphad2712-creator/site-pethouse/commit/a281ab2).
 
 ## 7 de novembro de 2026
 
