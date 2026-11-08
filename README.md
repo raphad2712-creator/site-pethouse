@@ -44,8 +44,4 @@ Agendamento incorpora o vídeo [Como dar banho em cachorro em casa?](https://www
 - [Orçamento de esforço e tempos](docs/orcamento.md)
 - [Checklist da entrega e rubrica](docs/checklist_entrega.md)
 
-## Entrega
-
-O líder deve enviar no Blackboard o link do repositório público e o ZIP do projeto até o primeiro dia de apresentação da turma. O limite do ZIP é 50 MB. Guardar o arquivo entregue para apresentar a mesma versão, caso o GitHub seja alterado depois.
-
 As telas de Login, Cadastro, Carrinho e Fidelidade são demonstrativas. Os formulários com `mailto` abrem o aplicativo de e-mail; os dados não são salvos no servidor.
