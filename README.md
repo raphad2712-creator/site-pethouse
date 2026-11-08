@@ -28,7 +28,7 @@ A tabela organiza as responsabilidades pelas páginas. As estimativas de tempo e
 - Arquivos HTML na raiz: as 12 páginas do site.
 - `css/`: estilos compartilhados e estilos de Login e Mundo Pet.
 - `imagens/`: imagens de produtos, banners e fundo do Login.
-- `docs/`: diário, orçamento de esforço, checklist, evidências e roteiro de apresentação.
+- `docs/`: diário, orçamento de esforço, evidências e roteiro de apresentação.
 
 O HTML usa elementos semânticos, títulos, rótulos e validação nativa nos formulários. O CSS utiliza variáveis, Flexbox, Grid e media queries para adaptar o site ao celular. Não há JavaScript ou banco de dados.
 
@@ -42,6 +42,5 @@ Agendamento incorpora o vídeo [Como dar banho em cachorro em casa?](https://www
 
 - [Diário de bordo](docs/diario.md)
 - [Orçamento de esforço e tempos](docs/orcamento.md)
-- [Checklist da entrega e rubrica](docs/checklist_entrega.md)
 
 As telas de Login, Cadastro, Carrinho e Fidelidade são demonstrativas. Os formulários com `mailto` abrem o aplicativo de e-mail; os dados não são salvos no servidor.
