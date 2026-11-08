@@ -70,12 +70,6 @@ Os formulários receberam orientações, identificação dos campos obrigatório
 
 Foram verificados e-mail inválido, telefone fora do padrão, quantidade zero, usuário inválido, senha curta e navegação do Login demonstrativo. As 12 páginas foram verificadas em quadros móveis de 390 px, sem rolagem horizontal geral. Os resultados estão em [evidencias.md](evidencias.md).
 
-### Vídeo e documentação
+### Vídeo
 
 Agendamento recebeu o vídeo “Como dar banho em cachorro em casa?”, da Petz TV, com player do YouTube, título, proporção 16:9 e largura adaptável. A página inclui o crédito e um link para assistir no YouTube. O player se ajustou à tela móvel; a reprodução completa não foi confirmada na prévia.
-
-O README foi resumido, os relatórios PDF e Word foram retirados do projeto e os registros foram mantidos em Markdown. O diário passou a apresentar as contribuições por data de registro, e a seção de orientações de entrega foi removida do README.
-
-### Próximos passos
-
-Cada integrante deve conferir suas atividades e acrescentar as datas reais ainda ausentes. O grupo deve testar vídeo e mapa com internet, verificar os formulários nos próprios aparelhos e ensaiar a navegação para a apresentação.
