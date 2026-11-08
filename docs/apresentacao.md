@@ -2,15 +2,16 @@
 
 Duração de referência: 7 minutos. Ensaiar com a versão do ZIP entregue ao professor. As falas abaixo são sugestões para a apresentação, sem atribuir tarefas de desenvolvimento que não foram relatadas.
 
-| Tempo | Integrante | Demonstração |
+| Tempo | Integrante | Demonstração sugerida |
 | --- | --- | --- |
-| 0:00 a 0:45 | Ruan Silva Costa | Explicar a proposta da PetHouse, apresentar a página inicial e abrir uma pergunta frequente. |
-| 0:45 a 2:00 | Raphael David Silva Freitas | Apresentar Produtos, explicar categorias, imagens, preços e cartões. Mostrar a adaptação da grade em tela menor. |
-| 2:00 a 3:00 | Jioselia Abigail Picco Mollo | Apresentar Mundo Pet e explicar a divisão em artigos de alimentação, higiene, saúde e diversão. |
-| 3:00 a 3:45 | Luan de Oliveira Mendes | Apresentar a criação inicial do Login, os rótulos e a validação dos campos. |
-| 3:45 a 4:30 | Klener Nilmar Quispe Cari | Explicar sua participação no Login e o acesso a novo cadastro; navegar até Cadastro. |
-| 4:30 a 5:30 | João Victor Fava Yamada | Explicar Cadastro e demonstrar os campos obrigatórios e o formato do e-mail. Informar que não há persistência ou autenticação. |
-| 5:30 a 7:00 | Joana Manuele Freitas Silva | Mostrar as variáveis CSS, o mapa incorporado, a tabela de serviços e a organização de docs. Relacionar a demonstração com a rubrica e encerrar. |
+| 0:00 a 0:40 | Ruan Silva Costa | Apresentar a proposta, a página inicial e uma pergunta frequente. |
+| 0:40 a 1:40 | Raphael David Silva Freitas | Apresentar Produtos e a organização do catálogo; mostrar Fornecedores na divisão proposta. |
+| 1:40 a 2:30 | Jioselia Abigail Picco Mollo | Mostrar os artigos e as imagens de Mundo Pet. |
+| 2:30 a 3:10 | Luan de Oliveira Mendes | Explicar a criação inicial do Login e a validação do usuário. |
+| 3:10 a 4:00 | Klener Nilmar Quispe Cari | Explicar sua participação no Login; apresentar Agendamento e Carrinho como páginas da divisão sugerida, após confirmar a atribuição. |
+| 4:00 a 4:50 | João Victor Fava Yamada | Apresentar Cadastro e os campos obrigatórios. |
+| 4:50 a 5:50 | Estefany | Apresentar Contato, o mapa e Feedbacks; a atribuição de desenvolvimento é sugerida e deve ser confirmada. |
+| 5:50 a 7:00 | Joana Manuele Freitas Silva | Mostrar CSS, documentação e a divisão sugerida de Fidelidade e Orçamentos; encerrar com os limites do site estático. |
 
 ## Demonstração técnica
 

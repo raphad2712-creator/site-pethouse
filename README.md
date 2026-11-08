@@ -4,7 +4,7 @@ Trabalho prático de Desenvolvimento Web do Grupo 7, do curso de Engenharia de S
 
 **Site:** [PetHouse no GitHub Pages](https://raphad2712-creator.github.io/site-pethouse/)
 
-**Documentação:** [PDF](docs/Documentacao_PetHouse_Grupo_7.pdf) · [Word editável](docs/Documentacao_PetHouse_Grupo_7.docx) · [Diário](docs/diario.md) · [Orçamento de esforço](docs/orcamento.md) · [Checklist da entrega](docs/checklist_entrega.md) · [Roteiro](docs/apresentacao.md) · [Evidências](docs/evidencias.md)
+**Documentação:** [Diário](docs/diario.md) · [Orçamento de esforço](docs/orcamento.md) · [Checklist da entrega](docs/checklist_entrega.md) · [Roteiro](docs/apresentacao.md) · [Evidências](docs/evidencias.md)
 
 ## Objetivo e proposta
 
@@ -12,17 +12,35 @@ Aplicar os conteúdos de estruturação de páginas, semântica HTML, formulári
 
 ## Equipe e contribuições
 
-| Integrante | Participação | Tempo informado |
-| --- | --- | --- |
-| Raphael David Silva Freitas | Desenvolvimento da página de Produtos e organização do catálogo. | Não informado |
-| Ruan Silva Costa | Ajustes na página inicial. | Não informado |
-| Jioselia Abigail Picco Mollo | Desenvolvimento da página Mundo Pet. | Aproximadamente 2 horas e alguns minutos |
-| Joana Manuele Freitas Silva | Revisão do projeto e relatório de alterações, abrangendo CSS, mídias e documentação. | 3 horas |
-| Luan de Oliveira Mendes | Criação inicial da página de Login. | Entre 2 e 3 horas |
-| Klener Nilmar Quispe Cari | Desenvolvimento da página de Login e inclusão do acesso a novo cadastro. | 2 horas |
-| João Victor Fava Yamada | Desenvolvimento da página de Cadastro. | Não informado |
+As participações informadas seguem os relatos do grupo. As atribuições sugeridas completam a divisão das 12 páginas e precisam ser confirmadas pelos integrantes; não representam autoria passada comprovada. As horas acrescentadas são estimativas de planejamento, não registros reais. Estefany foi incluída com o nome informado, sem sobrenome.
 
-As contribuições e os tempos seguem os relatos dos integrantes e a distribuição informada pelo grupo. O Login recebeu a contribuição de Luan e Klener. O nome completo de João Victor foi identificado na autoria dos commits de cadastro. Os tempos não informados não foram estimados como se fossem horas reais.
+| Integrante | Participação | Tempo e natureza |
+| --- | --- | --- |
+| Raphael David Silva Freitas | Produtos (informada); Fornecedores (sugerida). | 4 h estimadas para as duas páginas |
+| Ruan Silva Costa | Ajustes na página inicial (informada). | 2 h estimadas |
+| Jioselia Abigail Picco Mollo | Mundo Pet (informada). | Aproximadamente 2 h e alguns minutos relatados |
+| Joana Manuele Freitas Silva | Revisão de CSS e documentação (informada); Fidelidade e Orçamentos (sugeridas). | 3 h relatadas na revisão; mais 2 h estimadas para as páginas sugeridas |
+| Luan de Oliveira Mendes | Criação inicial do Login (informada). | Entre 2 e 3 h relatadas |
+| Klener Nilmar Quispe Cari | Login e acesso ao Cadastro (informada); Agendamento e Carrinho (sugeridas). | 2 h relatadas no Login; mais 3 h estimadas para as páginas sugeridas |
+| João Victor Fava Yamada | Cadastro (informada). | 3 h estimadas |
+| Estefany | Contato e Feedbacks (sugeridas). | 3 h estimadas |
+
+## Divisão das 12 páginas
+
+| Página | Integrante responsável | Origem da atribuição |
+| --- | --- | --- |
+| index.html | Ruan Silva Costa | Informada |
+| produtos.html | Raphael David Silva Freitas | Informada |
+| mundo-pet.html | Jioselia Abigail Picco Mollo | Informada |
+| fornecedores.html | Raphael David Silva Freitas | Sugerida |
+| orcamentos.html | Joana Manuele Freitas Silva | Sugerida |
+| feedbacks.html | Estefany | Sugerida |
+| fidelidade.html | Joana Manuele Freitas Silva | Sugerida |
+| agendamento.html | Klener Nilmar Quispe Cari | Sugerida |
+| carrinho.html | Klener Nilmar Quispe Cari | Sugerida |
+| contato.html | Estefany | Sugerida |
+| login.html | Luan de Oliveira Mendes e Klener Nilmar Quispe Cari | Informada |
+| cadastro.html | João Victor Fava Yamada | Informada |
 
 ## Páginas e navegação
 
@@ -62,7 +80,7 @@ O site estático não exige instalação de pacotes, compilação ou banco de da
 | css/mundo-pet.css | Estilos exclusivos de Mundo Pet |
 | imagens/ | Fotos de produtos, animais, banners e fundo do Login |
 | videos/ | Instruções para adicionar um vídeo quando o arquivo for recebido |
-| docs/ | Documentação acadêmica, diário e orçamento |
+| docs/ | README, diário, orçamento, checklist e roteiro |
 | README.md | Apresentação e instruções do repositório |
 
 ## Tecnologias e decisões de design
@@ -93,9 +111,9 @@ O líder ou uma pessoa delegada por ele deve enviar no Blackboard o **link do re
 
 A rubrica soma 5 pontos: codificação (3), documentação e criatividade (1) e apresentação (1). A distribuição dos 12 critérios e as ações de conferência estão em [docs/checklist_entrega.md](docs/checklist_entrega.md). A [rubrica recebida](docs/rubrica_avaliacao.jpeg), o [roteiro de 7 minutos](docs/apresentacao.md) e as [evidências de revisão](docs/evidencias.md) acompanham o projeto. A nota e a validação final cabem ao professor.
 
-## Requisitos do relatório de avaliação
+## Requisitos do projeto
 
-Esta relação reúne os itens descritos no relatório de alterações fornecido ao grupo. A avaliação e a nota dependem da conferência do professor.
+Esta relação resume os itens de implementação e documentação. A entrega solicitada pelo professor é o link do repositório e o ZIP; não há relatório em PDF ou Word neste pacote.
 
 | Item | Evidência ou situação |
 | --- | --- |
@@ -115,7 +133,7 @@ Esta relação reúne os itens descritos no relatório de alterações fornecido
 | Identificação e divisão de tarefas | Tabela de equipe acima |
 | Diário de bordo | docs/diario.md, com acontecimentos confirmados |
 | Orçamento de esforço e comparação de horas | docs/orcamento.md, com estimativas e tempos relatados separados |
-| Documentação acadêmica | Versões em PDF e Word em docs |
+| Documentação do projeto | README e arquivos Markdown em docs |
 
 ## Verificação e limites
 
@@ -127,9 +145,9 @@ Login, Cadastro, Carrinho e Fidelidade são demonstrações estáticas: não há
 
 - Enviar o vídeo somente se o grupo quiser incluí-lo além do iframe que já funciona.
 - Informar o endereço real para configurar a localização definitiva no mapa.
-- Complementar as horas de Raphael, Ruan e João Victor, se houver registro.
+- Confirmar a divisão sugerida e substituir estimativas por horas reais quando houver registro.
 - Confirmar com o professor se os comentários no código são obrigatórios.
 
 ## Fontes do registro
 
-Rubrica de avaliação e comunicado da segunda entrega fornecidos pelo professor; relatos dos integrantes compartilhados em novembro de 2026; relatório de alterações PetHouse de 7 de novembro de 2026; histórico e arquivos deste repositório. Para apresentação acadêmica, foi consultada a ABNT NBR 14724:2024. A formatação de páginas se aplica ao PDF e ao Word; o README mantém a leitura própria do GitHub.
+Rubrica de avaliação e comunicado da segunda entrega fornecidos pelo professor; relatos dos integrantes compartilhados em novembro de 2026; relatório de alterações PetHouse de 7 de novembro de 2026; histórico e arquivos deste repositório. O README e os arquivos Markdown mantêm a leitura própria do GitHub; relatórios em PDF e Word foram retirados desta versão.

@@ -35,3 +35,9 @@ Os formulários receberam orientações visíveis, identificação dos campos ob
 Foram verificados e-mail inválido, telefone fora do padrão, quantidade zero, usuário inválido, senha curta e navegação do Login demonstrativo. As 12 páginas não apresentaram rolagem horizontal geral nos quadros móveis de 390 px usados na revisão. O registro dos resultados está em [evidencias.md](evidencias.md).
 
 A documentação foi complementada com [checklist_entrega.md](checklist_entrega.md), a [rubrica recebida](rubrica_avaliacao.jpeg) e um [roteiro de apresentação](apresentacao.md) com participação dos sete integrantes. Os próximos passos são o ensaio, a conferência dos registros de horas e o envio do link e do ZIP pelo líder no Blackboard, dentro do prazo da turma.
+
+## 8 de novembro de 2026 Organização da equipe e documentos da entrega
+
+Estefany foi incluída na equipe. A divisão das 12 páginas foi complementada com atribuições sugeridas para as páginas sem responsável informado. Foram acrescentadas estimativas de esforço, sempre identificadas separadamente dos tempos relatados. O grupo ainda precisa confirmar essas novas atribuições antes de apresentá-las como atividades realizadas.
+
+Os relatórios em PDF e Word foram retirados do repositório e do pacote de entrega, pois o comunicado pede o link e o ZIP do projeto. Foram mantidos README, diário, orçamento de esforço, checklist, roteiro e evidências em Markdown. O roteiro passou a incluir os oito integrantes.

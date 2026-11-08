@@ -1,5 +1,7 @@
 # Conferência da segunda entrega
 
+O professor solicita o link e o ZIP. Os relatórios PDF e Word foram retirados; permanecem os arquivos Markdown exigidos ou úteis à rubrica.
+
 ## Arquivos e envio
 
 - Projeto público: https://github.com/raphad2712-creator/site-pethouse
@@ -22,13 +24,13 @@ O comunicado prevê perda de 2 pontos por falta de entrega no prazo. Também des
 | Formulários | 0,50 | label/for, required, type, pattern, minlength, dicas e validação nativa | Implementado e verificado nos casos descritos em evidencias.md |
 | Mídia incorporada | 0,20 | iframe responsivo do Google Maps, com título e link externo | Carregamento verificado; endereço da loja ainda ilustrativo |
 | Qualidade do CSS | 0,80 | Variáveis, regras agrupadas, utilidades e arquivos específicos | Implementado; comentários claros foram omitidos por solicitação de código sem comentários |
-| Conteúdo e organização geral | 0,30 | README e pasta docs com diário, orçamento, documentação acadêmica e checklist | Organizado |
+| Conteúdo e organização geral | 0,30 | README e pasta docs com diário, orçamento, documentação em Markdown e checklist | Organizado |
 | Diário de bordo | 0,30 | Entradas datadas, decisões, limitações e links de evidência | Atualizado com registros confirmados |
 | Soluções de conteúdo e layout | 0,20 | Hierarquia de títulos, cartões, tabelas e FAQ com details/summary | Implementado |
 | Aproveitamento dos recursos | 0,20 | Mapa para explorar a cidade, tabelas de serviços e comparações de pontos | Implementado; mapa não indica uma loja real |
 | Clareza e organização da apresentação | 0,35 | Roteiro de 7 minutos em apresentacao.md | Preparado; depende do ensaio do grupo |
 | Demonstração técnica | 0,35 | Sequência de validação, navegação e mídia no roteiro e nas evidências | Preparada; depende da apresentação |
-| Comunicação de equipe | 0,30 | Participação dos sete integrantes e transições definidas no roteiro | Preparada; depende da participação presencial |
+| Comunicação de equipe | 0,30 | Participação dos oito integrantes e transições definidas no roteiro | Preparada; depende da participação presencial |
 | Total | 5,00 | Codificação: 3,00; documentação e criatividade: 1,00; apresentação: 1,00 | A nota cabe ao professor |
 
 Fonte: rubrica fornecida pelo professor, disponível em [rubrica_avaliacao.jpeg](rubrica_avaliacao.jpeg).
@@ -39,5 +41,5 @@ Fonte: rubrica fornecida pelo professor, disponível em [rubrica_avaliacao.jpeg]
 2. Ensaiar o roteiro e demonstrar os limites de um site estático sem simular envio ou cadastro no servidor.
 3. Informar o endereço definitivo, caso a avaliação espere a localização de uma loja real.
 4. Enviar servicos.mp4 se quiser usar vídeo, além do iframe já disponível. O vídeo não é o único tipo de mídia aceito na rubrica.
-5. Completar as horas dos integrantes que ainda não informaram tempo, se houver registros reais.
+5. Confirmar as tarefas sugeridas e atualizar as horas estimadas com registros reais, quando disponíveis.
 6. Conferir os requisitos da primeira entrega, caso exista algum item em documento que ainda não tenha sido compartilhado com o grupo nesta revisão.

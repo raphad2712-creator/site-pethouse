@@ -1,36 +1,24 @@
-# Estimativa de trabalho
+# Orçamento de esforço
 
-Estimativa acadêmica de esforço para o projeto. Os valores abaixo são uma proposta de planejamento, não uma medição de horas já trabalhadas.
+As participações informadas seguem os relatos do grupo. As atribuições sugeridas completam a divisão das 12 páginas e precisam ser confirmadas pelos integrantes; não representam autoria passada comprovada. As horas acrescentadas são estimativas de planejamento, não registros reais. Estefany foi incluída com o nome informado, sem sobrenome.
 
-| Etapa | Horas estimadas | Horas reais |
-| --- | ---: | --- |
-| Planejamento e divisão de tarefas | 2 | A informar |
-| Estrutura das páginas e navegação | 5 | A informar |
-| Catálogo e imagens | 3 | A informar |
-| Formulários e tabelas | 4 | A informar |
-| Estilos e adaptação para celular | 4 | A informar |
-| Mapa, banners e vídeos | 2 | A informar |
-| Revisão e documentação | 3 | A informar |
-| Total | 23 | A informar |
-
-## Tempos relatados por integrante
-
-| Integrante | Atividade | Tempo informado |
+| Integrante | Participação | Tempo e natureza |
 | --- | --- | --- |
-| Raphael David Silva Freitas | Página de Produtos | Não informado |
-| Ruan Silva Costa | Ajustes na página inicial | Não informado |
-| Jioselia Abigail Picco Mollo | Página Mundo Pet | Aproximadamente 2 horas e alguns minutos |
-| Joana Manuele Freitas Silva | Revisão e relatório de alterações | 3 horas |
-| Luan de Oliveira Mendes | Criação inicial do Login | Entre 2 e 3 horas |
-| Klener Nilmar Quispe Cari | Página de Login e acesso ao Cadastro | 2 horas |
-| João Victor Fava Yamada | Página de Cadastro | Não informado |
+| Raphael David Silva Freitas | Produtos (informada); Fornecedores (sugerida). | 4 h estimadas para as duas páginas |
+| Ruan Silva Costa | Ajustes na página inicial (informada). | 2 h estimadas |
+| Jioselia Abigail Picco Mollo | Mundo Pet (informada). | Aproximadamente 2 h e alguns minutos relatados |
+| Joana Manuele Freitas Silva | Revisão de CSS e documentação (informada); Fidelidade e Orçamentos (sugeridas). | 3 h relatadas na revisão; mais 2 h estimadas para as páginas sugeridas |
+| Luan de Oliveira Mendes | Criação inicial do Login (informada). | Entre 2 e 3 h relatadas |
+| Klener Nilmar Quispe Cari | Login e acesso ao Cadastro (informada); Agendamento e Carrinho (sugeridas). | 2 h relatadas no Login; mais 3 h estimadas para as páginas sugeridas |
+| João Victor Fava Yamada | Cadastro (informada). | 3 h estimadas |
+| Estefany | Contato e Feedbacks (sugeridas). | 3 h estimadas |
 
-Os tempos são os relatos dos integrantes. A estimativa de 23 horas descreve o planejamento por etapa; as horas acima descrevem participações individuais e não possuem a mesma divisão. Não foi calculada uma diferença numérica por etapa nem um total real completo, pois faltam registros de três integrantes e há tempos aproximados.
+## Uso dos tempos
 
-Luan e Klener contribuíram em momentos diferentes na página de Login. Os tempos de ambos correspondem às participações relatadas, sem atribuir a página exclusivamente a um deles.
+As durações relatadas correspondem apenas às atividades descritas nos relatos originais. As novas páginas sugeridas para Joana e Klener possuem estimativas adicionais separadas. Os tempos de Raphael, Ruan, João Victor e Estefany são estimados. Não há total real completo ou comparação exata por etapa, pois não existe medição de todas as atividades.
 
-## Ferramentas e recursos
+A divisão das 12 páginas está no README. O Login mantém a participação de Luan e Klener. Antes de apresentar autoria e esforço como concluídos, cada integrante deve conferir suas próprias atividades.
 
-HTML, CSS, VS Code, extensão Live Server, Git, GitHub e GitHub Pages. O mapa utiliza incorporação do Google Maps. Fotos disponíveis na pasta imagens são reutilizadas nos banners e nas capas dos vídeos.
+## Ferramentas
 
-Custos pagos e valor por hora: não informados. Para um orçamento financeiro, o grupo deve definir o valor por hora e multiplicá-lo pelo esforço estimado ou medido.
+HTML, CSS, Visual Studio Code, Live Server, Git, GitHub, GitHub Pages e Google Maps. O projeto é estático e não exige instalação de pacotes. Não foram informados custos pagos nem valor por hora.
