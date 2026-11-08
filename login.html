@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/login.css?v=20261025-hd">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/login.css">
   <title>Login | PetHouse</title>
 </head>
 <body>
@@ -17,10 +18,10 @@
       <h1 id="titulo-login">Login</h1>
       <form action="produtos.html">
         <label for="usuario">Usuário</label>
-        <input id="usuario" type="text" placeholder="Digite seu usuário" autocomplete="off" required>
+        <input id="usuario" type="text" pattern="[A-Za-z0-9_]{3,20}" title="Use de 3 a 20 letras sem acento, números ou sublinhado" placeholder="Digite seu usuário" autocomplete="off" required>
 
         <label for="senha">Senha</label>
-        <input id="senha" type="password" placeholder="Digite sua senha" autocomplete="off" required>
+        <input id="senha" type="password" minlength="6" placeholder="Digite sua senha" autocomplete="off" required>
 
         <button type="submit">Entrar</button>
         <p>Não tem uma conta?</p>

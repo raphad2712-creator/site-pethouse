@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/login.css?v=20261025-hd">
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/login.css">
     <title>Cadastro | PetHouse</title>
   </head>
   <body>
@@ -17,19 +18,19 @@
 
       <form action="login.html">
         <label for="nome">Nome completo</label>
-        <input id="nome" type="text" placeholder="Digite seu nome completo" required>
+        <input id="nome" type="text" minlength="3" placeholder="Digite seu nome completo" required>
 
         <label for="usuario">Usuário</label>
-        <input id="usuario" type="text" placeholder="Crie seu usuário" required>
+        <input id="usuario" type="text" pattern="[A-Za-z0-9_]{3,20}" title="Use de 3 a 20 letras sem acento, números ou sublinhado" placeholder="Crie seu usuário" required>
 
         <label for="email">E-mail</label>
         <input id="email" type="email" placeholder="Digite seu e-mail" required>
 
         <label for="senha">Senha</label>
-        <input id="senha" type="password" placeholder="Crie sua senha" required>
+        <input id="senha" type="password" minlength="6" placeholder="Crie sua senha" required>
 
         <label for="confirmar-senha">Confirmar senha</label>
-        <input id="confirmar-senha" type="password" placeholder="Digite sua senha novamente" required>
+        <input id="confirmar-senha" type="password" minlength="6" placeholder="Digite sua senha novamente" required>
 
         <button type="submit">Cadastrar</button>
       </form>

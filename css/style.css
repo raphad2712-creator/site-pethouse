@@ -1,3 +1,17 @@
+:root {
+  --cor-primaria: #386b5a;
+  --cor-destaque: #c9572b;
+  --cor-fundo: #fffbf5;
+  --cor-texto: #302c28;
+  --cor-rodape: #263e36;
+  --cor-nav-bg: #edf4ef;
+  --cor-borda: #e8dfd3;
+  --cor-hero: #ffe9d9;
+  --cor-categoria: #6b6259;
+  --raio-card: 15px;
+  --raio-botao: 8px;
+  --padding-secao: 35px 5%;
+}
 
 * {
   box-sizing: border-box;
@@ -5,14 +19,14 @@
 
 body {
   margin: 0;
-  background: #fffbf5;
-  color: #302c28;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
 
 a {
-  color: #386b5a;
+  color: var(--cor-primaria);
 }
 
 h1, h2, p {
@@ -51,13 +65,13 @@ nav {
 
 nav a {
   padding: 6px 12px;
-  background: #edf4ef;
-  border-radius: 8px;
+  background: var(--cor-nav-bg);
+  border-radius: var(--raio-botao);
   text-decoration: none;
 }
 
 nav a:hover, nav a[aria-current="page"] {
-  background: #386b5a;
+  background: var(--cor-primaria);
   color: white;
 }
 
@@ -66,11 +80,11 @@ main {
 }
 
 section {
-  padding: 35px 5%;
+  padding: var(--padding-secao);
 }
 
 .destaque, .preco {
-  color: #c9572b;
+  color: var(--cor-destaque);
   font-weight: bold;
 }
 
@@ -79,8 +93,8 @@ section {
   margin-top: 10px;
   padding: 12px 20px;
   border: 0;
-  border-radius: 8px;
-  background: #c9572b;
+  border-radius: var(--raio-botao);
+  background: var(--cor-destaque);
   color: white;
   font-size: 16px;
   text-decoration: none;
@@ -94,7 +108,7 @@ section {
 }
 
 .hero {
-  background: #ffe9d9;
+  background: var(--cor-hero);
 }
 
 .hero .texto-intro, .hero figure, .contato .texto-intro, address {
@@ -125,7 +139,7 @@ figure {
 
 .chamada {
   text-align: center;
-  background: #ffe9d9;
+  background: var(--cor-hero);
 }
 
 ul {
@@ -138,7 +152,7 @@ ul {
   display: flex;
   gap: 25px;
   padding: 30px 5%;
-  background: #386b5a;
+  background: var(--cor-primaria);
   color: white;
 }
 
@@ -154,8 +168,8 @@ ul {
 
 .produtos li, address, form {
   padding: 20px;
-  border: 1px solid #e8dfd3;
-  border-radius: 15px;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-card);
   background: white;
 }
 
@@ -171,7 +185,7 @@ ul {
 }
 
 .categoria {
-  color: #6b6259;
+  color: var(--cor-categoria);
   font-size: 13px;
 }
 
@@ -204,7 +218,7 @@ input {
 }
 
 footer {
-  background: #263e36;
+  background: var(--cor-rodape);
   color: white;
 }
 
@@ -249,8 +263,8 @@ select, textarea {
 
 .cartoes li {
   padding: 20px;
-  border: 1px solid #e8dfd3;
-  border-radius: 15px;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-card);
   background: white;
 }
 
@@ -267,12 +281,12 @@ table {
 
 th, td {
   padding: 12px;
-  border: 1px solid #e8dfd3;
+  border: 1px solid var(--cor-borda);
   text-align: left;
 }
 
 th {
-  background: #edf4ef;
+  background: var(--cor-nav-bg);
 }
 
 td input {
@@ -286,7 +300,7 @@ progress {
 }
 
 .total {
-  color: #c9572b;
+  color: var(--cor-destaque);
   font-size: 20px;
   font-weight: bold;
 }
@@ -295,4 +309,29 @@ progress {
   .cartoes {
     grid-template-columns: 1fr;
   }
+}
+
+.banner {
+  height: 280px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+video {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  border-radius: var(--raio-card);
+}
+
+a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, button:focus-visible {
+  outline: 3px solid var(--cor-destaque);
+  outline-offset: 3px;
 }

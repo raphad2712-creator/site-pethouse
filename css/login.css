@@ -1,39 +1,15 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
   min-height: 100vh;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
   color: white;
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
   background: url("../imagens/fundo_login_hd.webp") center / cover;
 }
 
-.cabecalho, footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  padding: 20px 5%;
-}
-
-.cabecalho {
-  background: white;
-}
-
 .cabecalho a {
-  color: #386b5a;
+  color: var(--cor-primaria);
   text-decoration: none;
-}
-
-.marca {
-  font-size: 27px;
-  font-weight: bold;
 }
 
 .cabecalho a:hover {
@@ -59,7 +35,6 @@ main {
 }
 
 h1 {
-  margin: 0;
   text-align: center;
   font-family: Georgia, serif;
   font-size: 36px;
@@ -78,13 +53,7 @@ h1 {
   margin: 18px 0 0;
 }
 
-label {
-  display: block;
-  margin-bottom: 6px;
-}
-
 input {
-  width: 100%;
   min-width: 0;
   padding: 14px 18px;
   margin-bottom: 20px;
@@ -104,7 +73,7 @@ button {
   padding: 14px;
   border: 0;
   border-radius: 28px;
-  background: #c9572b;
+  background: var(--cor-destaque);
   color: white;
   font: inherit;
   font-weight: bold;
@@ -120,20 +89,7 @@ a:focus-visible, input:focus-visible, button:focus-visible {
   outline-offset: 4px;
 }
 
-footer {
-  background: #263e36;
-}
-
-footer p {
-  margin: 0;
-}
-
 @media (max-width: 480px) {
-  .cabecalho, footer {
-    padding: 16px 20px;
-    flex-wrap: wrap;
-  }
-
   .container {
     padding: 24px;
   }
@@ -141,4 +97,14 @@ footer p {
   main {
     padding: 24px 16px;
   }
+}
+
+.container form {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.container a {
+  color: white;
 }

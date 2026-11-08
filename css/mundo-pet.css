@@ -1,6 +1,6 @@
-/*Mundo Pet*/
 
-/*Apresentação*/
+
+
 .mundo-intro {
   text-align: center;
   background-color: #ffe9d9;
@@ -28,7 +28,7 @@
   margin: auto;
 }
 
-/* Cartões de Conteúdo */
+
 .cartao {
   background-color: white;
   border: 1px solid #e8dfd3;
@@ -37,12 +37,12 @@
   margin-bottom: 25px;
 }
 
-/* Efeito ao passar o mouse no cartão */
+
 .cartao:hover {
   border-color: #000000;
 }
 
-/* Título e Ícone do Cartão */
+
 .faixa {
   margin-bottom: 15px;
 }
@@ -60,7 +60,7 @@
   font-size: 19px;
 }
 
-/* Imagem do Cartão */
+
 .conteudo-cartao img {
   width: 300px;
   max-width: 100%;
@@ -70,7 +70,7 @@
   margin-bottom: 15px;
 }
 
-/* Textos e Listas */
+
 .texto-cartao h3 {
   color: #302c28;
   font-size: 18px;
@@ -88,7 +88,7 @@
   margin-bottom: 8px;
 }
 
-/* Tag da Espécie */
+
 .especies {
   background-color: #edf4ef;
   color: #263e36;
@@ -101,7 +101,7 @@
   display: inline-block;
 }
 
-/* Links das Fontes */
+
 .fonte {
   font-size: 12px;
   color: #302c28;

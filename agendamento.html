@@ -73,13 +73,22 @@
       <p>Atendimento de segunda a sábado, das 9h às 18h.</p>
     </section>
 
+    <section>
+      <h2>Conheça nossos serviços</h2>
+      <p>Vídeo em breve.</p>
+      <video controls preload="none" poster="imagens/gatohigiene.png" aria-label="Conheça nossos serviços">
+        <source src="videos/servicos.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo. <a href="videos/servicos.mp4">Baixar o vídeo</a>.
+      </video>
+    </section>
+
     <section id="formulario-agendamento">
       <form action="mailto:contato@pethouse.com.br" method="post" enctype="text/plain">
         <label for="tutor">Nome do tutor</label>
-        <input type="text" id="tutor" name="tutor" required>
+        <input type="text" id="tutor" minlength="3" name="tutor" required>
 
         <label for="celular">Telefone</label>
-        <input type="tel" id="celular" name="celular" required>
+        <input type="tel" pattern="[0-9]{10,11}" inputmode="numeric" title="Digite o DDD e o telefone, com 10 ou 11 números, sem espaços" id="celular" name="celular" required>
 
         <label for="pet">Nome do pet</label>
         <input type="text" id="pet" name="pet" required>
