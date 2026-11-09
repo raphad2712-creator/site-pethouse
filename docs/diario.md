@@ -51,7 +51,7 @@ Para integrar páginas com estilos diferentes, o CSS foi compartilhado e foram p
 
 ## 8 de novembro de 2026
 
-Foram reunidas as contribuições de Login e Cadastro e atualizada a relação dos oito integrantes:
+Foram reunidas as contribuições de Login e Cadastro e atualizada a relação dos integrantes:
 
 | Integrante | Atividade registrada |
 | --- | --- |
@@ -77,3 +77,7 @@ Agendamento recebeu o vídeo “Como dar banho em cachorro em casa?”, da Petz 
 ### Identidade visual
 
 Em 8 de novembro, foi integrada a contribuição de Estefany Isidro Pachacuti: logo no cabeçalho e ícone da aba nas 12 páginas, além da linha laranja abaixo do menu. Estefany descreveu aproximadamente 1 hora de trabalho nessas alterações.
+
+### Integrantes
+
+Giovanni Ferreira dos Santos, RGM 48091341, foi incluído na equipe. Sua contribuição, a data de execução e o tempo de trabalho ainda precisam ser confirmados.
