@@ -80,4 +80,4 @@ Em 8 de novembro, foi integrada a contribuição de Estefany Isidro Pachacuti: l
 
 ### Integrantes
 
-Giovanni Ferreira dos Santos, RGM 48091341, foi incluído na equipe. Sua contribuição, a data de execução e o tempo de trabalho ainda precisam ser confirmados.
+Giovanni Ferreira dos Santos foi incluído na equipe como responsável pela revisão da navegação e dos links. Essa atribuição não representa um registro de execução concluída.

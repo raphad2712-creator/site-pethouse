@@ -13,7 +13,7 @@ Duração de referência: 7 minutos. Ensaiar com a versão do ZIP entregue ao pr
 | 4:50 a 5:50 | Estefany Isidro Pachacuti | Mostrar o logo no cabeçalho, o ícone da aba e a linha laranja do menu; explicar os ajustes de identidade visual. |
 | 5:50 a 7:00 | Joana Manuele Freitas Silva | Mostrar CSS, documentação e a divisão de Fidelidade e Orçamentos; encerrar com os limites do site estático. |
 
-Giovanni Ferreira dos Santos também integra a equipe; sua participação no roteiro será definida após a confirmação de sua contribuição.
+Giovanni Ferreira dos Santos fica responsável por preparar a demonstração da navegação entre as páginas e da conferência dos links, em conjunto com a equipe.
 
 ## Demonstração técnica
 

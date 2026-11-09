@@ -22,7 +22,7 @@ A tabela organiza as responsabilidades pelas páginas. As estimativas de tempo e
 | Klener Nilmar Quispe Cari | Login, acesso ao Cadastro, Agendamento e Carrinho |
 | João Victor Fava Yamada | Cadastro |
 | Estefany Isidro Pachacuti | Logo no cabeçalho, ícone da aba e linha laranja de separação no menu |
-| Giovanni Ferreira dos Santos — RGM 48091341 | Contribuição a confirmar |
+| Giovanni Ferreira dos Santos | Responsável pela revisão da navegação e dos links |
 
 ## Estrutura e tecnologias
 
