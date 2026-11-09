@@ -12,11 +12,11 @@ Organização das responsabilidades da equipe para as 12 páginas. Os tempos ide
 | Klener Nilmar Quispe Cari | Login e acesso ao Cadastro; Agendamento e Carrinho. | 2 h relatadas no Login; mais 3 h estimadas para as páginas adicionais |
 | João Victor Fava Yamada | Cadastro. | 3 h estimadas |
 | Estefany Isidro Pachacuti | Logo no cabeçalho, ícone da aba e linha laranja de separação no menu. | Aproximadamente 1 h |
-| Giovanni Ferreira dos Santos | Responsável pela revisão da navegação e dos links. | Sem registro de horas |
+| Giovanni Ferreira dos Santos | Auxílio na página de Contato. | Cerca de 2 h e alguns minutos |
 
 ## Uso dos tempos
 
-As durações relatadas correspondem apenas às atividades descritas nos relatos originais. As páginas adicionais de Joana e Klener possuem estimativas adicionais separadas. Os tempos de Raphael, Ruan e João Victor são estimados. Estefany descreveu aproximadamente 1 hora para os ajustes de identidade visual. A revisão da navegação e dos links está atribuída a Giovanni, sem registro de horas ou conclusão. Não há total real completo ou comparação exata por etapa, pois não existe medição de todas as atividades.
+As durações relatadas correspondem apenas às atividades descritas nos relatos originais. As páginas adicionais de Joana e Klener possuem estimativas adicionais separadas. Os tempos de Raphael, Ruan e João Victor são estimados. Estefany descreveu aproximadamente 1 hora para os ajustes de identidade visual. Giovanni auxiliou na página de Contato e dedicou cerca de 2 horas e alguns minutos, segundo o relato do grupo. Não há total real completo ou comparação exata por etapa, pois não existe medição de todas as atividades.
 
 A divisão das 12 páginas está no README. O Login mantém a participação de Luan e Klener. Antes de apresentar autoria e esforço como concluídos, cada integrante deve conferir suas próprias atividades.
 

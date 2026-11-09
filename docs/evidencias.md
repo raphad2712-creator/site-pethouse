@@ -38,6 +38,6 @@ A organização principal está no [CSS compartilhado](../css/style.css). As reg
 
 Foram preservados HTML e CSS simples e a ausência de comentários no código, conforme orientação do grupo. A rubrica cita comentários claros como parte da faixa Excelente de qualidade do CSS; a documentação externa não garante a mesma avaliação desse item.
 
-O mapa depende da internet. O endereço da loja é ilustrativo. Login, Cadastro, Carrinho e Fidelidade são interfaces estáticas. Os formulários com mailto dependem de um aplicativo de e-mail. As senhas de Cadastro não são comparadas automaticamente. O vídeo da Petz TV é incorporado pelo YouTube, sem depender de MP4 local. A disponibilidade do player depende da conexão e das permissões do YouTube.
+O mapa depende da internet. Login, Cadastro, Carrinho e Fidelidade são interfaces estáticas. Os formulários com mailto dependem de um aplicativo de e-mail. As senhas de Cadastro não são comparadas automaticamente. O vídeo da Petz TV é incorporado pelo YouTube, sem depender de MP4 local. A disponibilidade do player depende da conexão e das permissões do YouTube.
 
 Esta conferência não incluiu todos os navegadores ou aparelhos físicos. As regras responsivas foram verificadas no navegador disponível em uma largura de referência móvel.

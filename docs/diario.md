@@ -80,4 +80,4 @@ Em 8 de novembro, foi integrada a contribuição de Estefany Isidro Pachacuti: l
 
 ### Integrantes
 
-Giovanni Ferreira dos Santos foi incluído na equipe como responsável pela revisão da navegação e dos links. Essa atribuição não representa um registro de execução concluída.
+Giovanni Ferreira dos Santos auxiliou no desenvolvimento da página de Contato. O grupo registrou cerca de 2 horas e alguns minutos de trabalho nessa contribuição, sem especificar a data de execução.

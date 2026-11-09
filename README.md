@@ -22,7 +22,7 @@ A tabela organiza as responsabilidades pelas páginas. As estimativas de tempo e
 | Klener Nilmar Quispe Cari | Login, acesso ao Cadastro, Agendamento e Carrinho |
 | João Victor Fava Yamada | Cadastro |
 | Estefany Isidro Pachacuti | Logo no cabeçalho, ícone da aba e linha laranja de separação no menu |
-| Giovanni Ferreira dos Santos | Responsável pela revisão da navegação e dos links |
+| Giovanni Ferreira dos Santos | Auxílio na página de Contato |
 
 ## Estrutura e tecnologias
 
@@ -37,7 +37,7 @@ O HTML usa elementos semânticos, títulos, rótulos e validação nativa nos fo
 
 A identidade visual utiliza verde, laranja e fundo creme, com fonte Arial e componentes compartilhados. O CSS de Login fica separado para o fundo e o cartão dessa página. As cores e medidas principais estão em `:root`, no arquivo `css/style.css`.
 
-Agendamento incorpora o vídeo [Como dar banho em cachorro em casa?](https://www.youtube.com/watch?v=IUNmfBJkSUs), produzido pela Petz TV. Contato incorpora o Google Maps. As duas mídias se adaptam à largura da página. O endereço da loja é ilustrativo.
+Agendamento incorpora o vídeo [Como dar banho em cachorro em casa?](https://www.youtube.com/watch?v=IUNmfBJkSUs), produzido pela Petz TV. Contato incorpora o Google Maps. As duas mídias se adaptam à largura da página.
 
 ## Documentação
 

@@ -13,7 +13,7 @@ Duração de referência: 7 minutos. Ensaiar com a versão do ZIP entregue ao pr
 | 4:50 a 5:50 | Estefany Isidro Pachacuti | Mostrar o logo no cabeçalho, o ícone da aba e a linha laranja do menu; explicar os ajustes de identidade visual. |
 | 5:50 a 7:00 | Joana Manuele Freitas Silva | Mostrar CSS, documentação e a divisão de Fidelidade e Orçamentos; encerrar com os limites do site estático. |
 
-Giovanni Ferreira dos Santos fica responsável por preparar a demonstração da navegação entre as páginas e da conferência dos links, em conjunto com a equipe.
+Giovanni Ferreira dos Santos apresenta a página de Contato, explica sua participação no desenvolvimento e demonstra o mapa e o link para o Google Maps.
 
 ## Demonstração técnica
 
@@ -22,7 +22,7 @@ Giovanni Ferreira dos Santos fica responsável por preparar a demonstração da 
 3. Digitar um e-mail sem @, telefone 123 e quantidade 0. Mostrar a validação nativa e as orientações visíveis.
 4. Corrigir o e-mail, usar telefone com DDD e 10 ou 11 dígitos e quantidade maior ou igual a 1. Não enviar e-mail real durante o teste.
 5. Em Login, usar um usuário que descumpra o padrão para mostrar a validação; depois usar dados fictícios válidos para navegar ao catálogo. Explicar que é uma demonstração estática.
-6. Em Contato, aguardar o mapa carregar, mover o mapa e mostrar o link para abrir o Google Maps. O mapa representa São Paulo; o endereço da loja é ilustrativo.
+6. Em Contato, aguardar o mapa carregar, mover o mapa e mostrar o link para abrir o Google Maps. O mapa representa São Paulo.
 7. Mostrar a tabela de Agendamento e os cabeçalhos com scope. Reduzir a janela para demonstrar a adaptação do menu, dos cartões e dos formulários.
 
 ## Preparação
