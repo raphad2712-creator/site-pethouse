@@ -23,7 +23,7 @@ A tabela organiza as responsabilidades pelas páginas. As estimativas de tempo e
 | João Victor Fava Yamada | Cadastro |
 | Estefany Isidro Pachacuti | Logo no cabeçalho, ícone da aba e linha laranja de separação no menu |
 | Giovanni Ferreira dos Santos | Auxílio nas páginas de Contato e Feedbacks |
-
+| Julia Santos Vilela | Apresentação |
 ## Estrutura e tecnologias
 
 - Arquivos HTML na raiz: as 12 páginas do site.
