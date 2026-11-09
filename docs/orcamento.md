@@ -22,4 +22,4 @@ A divisão das 12 páginas está no README. O Login mantém a participação de 
 
 ## Ferramentas
 
-HTML, CSS, Visual Studio Code, Live Server, Git, GitHub, GitHub Pages e Google Maps. O projeto é estático e não exige instalação de pacotes. Não constam registros de custos pagos ou valor por hora.
+HTML, CSS, Visual Studio Code, Live Server, Git, GitHub, GitHub Pages, Google Maps e YouTube.
