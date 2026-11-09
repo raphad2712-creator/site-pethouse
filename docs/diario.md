@@ -68,7 +68,7 @@ Na revisão, foram encontrados players apontando para arquivos ausentes e um for
 
 Os formulários receberam orientações, identificação dos campos obrigatórios e descrições associadas. Foi adicionado um link para pular ao conteúdo e uma seção de perguntas frequentes na página inicial, usando `details` e `summary`.
 
-Foram verificados e-mail inválido, telefone fora do padrão, quantidade zero, usuário inválido, senha curta e navegação do Login demonstrativo. As 12 páginas foram verificadas em quadros móveis de 390 px, sem rolagem horizontal geral. Os resultados estão em [evidencias.md](evidencias.md).
+Foram verificados e-mail inválido, telefone fora do padrão, quantidade zero, usuário inválido, senha curta e navegação do Login demonstrativo. As 12 páginas foram verificadas em quadros móveis de 390 px, sem rolagem horizontal geral.
 
 ### Vídeo
 

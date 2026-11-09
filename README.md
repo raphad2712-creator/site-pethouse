@@ -29,7 +29,7 @@ A tabela organiza as responsabilidades pelas páginas. As estimativas de tempo e
 - Arquivos HTML na raiz: as 12 páginas do site.
 - `css/`: estilos compartilhados e estilos de Login e Mundo Pet.
 - `imagens/`: imagens de produtos, banners e fundo do Login.
-- `docs/`: diário, orçamento de esforço, evidências e roteiro de apresentação.
+- `docs/`: diário e orçamento de esforço.
 
 O HTML usa elementos semânticos, títulos, rótulos e validação nativa nos formulários. O CSS utiliza variáveis, Flexbox, Grid e media queries para adaptar o site ao celular. Não há JavaScript ou banco de dados.
 
