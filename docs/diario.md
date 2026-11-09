@@ -44,7 +44,7 @@ As contribuições reunidas nessa etapa foram:
 | --- | --- |
 | Raphael David Silva Freitas | Desenvolvimento da página de Produtos, conforme sua descrição no grupo. |
 | Ruan Silva Costa | Ajustes na página inicial. |
-| Jioselia Abigail Picco Mollo | Desenvolvimento da página Mundo Pet. |
+| Jhoselia Abigail Picco Mollo | Desenvolvimento da página Mundo Pet. |
 | Joana Manuele Freitas Silva | Alterações nas imagens e preparação do documento de revisão do projeto. |
 
 Para integrar páginas com estilos diferentes, o CSS foi compartilhado e foram padronizados cores, cartões, botões e espaçamentos.

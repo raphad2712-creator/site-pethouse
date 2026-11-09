@@ -16,7 +16,7 @@ A tabela organiza as responsabilidades pelas páginas. As estimativas de tempo e
 | --- | --- |
 | Raphael David Silva Freitas | Produtos e Fornecedores |
 | Ruan Silva Costa | Página inicial |
-| Jioselia Abigail Picco Mollo | Mundo Pet |
+| Jhoselia Abigail Picco Mollo | Mundo Pet |
 | Joana Manuele Freitas Silva | Fidelidade, Orçamentos, revisão de CSS e documentação |
 | Luan de Oliveira Mendes | Criação inicial do Login |
 | Klener Nilmar Quispe Cari | Login, acesso ao Cadastro, Agendamento e Carrinho |

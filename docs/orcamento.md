@@ -6,7 +6,7 @@ Organização das responsabilidades da equipe para as 12 páginas. Os tempos ide
 | --- | --- | --- |
 | Raphael David Silva Freitas | Produtos; Fornecedores. | 4 h estimadas para as duas páginas |
 | Ruan Silva Costa | Ajustes na página inicial. | 2 h estimadas |
-| Jioselia Abigail Picco Mollo | Mundo Pet. | Aproximadamente 2 h e alguns minutos relatados |
+| Jhoselia Abigail Picco Mollo | Mundo Pet. | Aproximadamente 2 h e alguns minutos relatados |
 | Joana Manuele Freitas Silva | Revisão de CSS e documentação; Fidelidade e Orçamentos. | 3 h relatadas na revisão; mais 2 h estimadas para as páginas adicionais |
 | Luan de Oliveira Mendes | Criação inicial do Login. | Entre 2 e 3 h relatadas |
 | Klener Nilmar Quispe Cari | Login e acesso ao Cadastro; Agendamento e Carrinho. | 2 h relatadas no Login; mais 3 h estimadas para as páginas adicionais |
