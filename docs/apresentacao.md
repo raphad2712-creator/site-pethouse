@@ -13,7 +13,7 @@ Duração de referência: 7 minutos. Ensaiar com a versão do ZIP entregue ao pr
 | 4:50 a 5:50 | Estefany Isidro Pachacuti | Mostrar o logo no cabeçalho, o ícone da aba e a linha laranja do menu; explicar os ajustes de identidade visual. |
 | 5:50 a 7:00 | Joana Manuele Freitas Silva | Mostrar CSS, documentação e a divisão de Fidelidade e Orçamentos; encerrar com os limites do site estático. |
 
-Giovanni Ferreira dos Santos apresenta a página de Contato, explica sua participação no desenvolvimento e demonstra o mapa e o link para o Google Maps.
+Giovanni Ferreira dos Santos apresenta as páginas de Contato e Feedbacks, explica seu auxílio no desenvolvimento e demonstra o mapa, o link para o Google Maps e o formulário de opinião.
 
 ## Demonstração técnica
 

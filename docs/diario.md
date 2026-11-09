@@ -80,4 +80,4 @@ Em 8 de novembro, foi integrada a contribuição de Estefany Isidro Pachacuti: l
 
 ### Integrantes
 
-Giovanni Ferreira dos Santos auxiliou no desenvolvimento da página de Contato. O grupo registrou cerca de 2 horas e alguns minutos de trabalho nessa contribuição, sem especificar a data de execução.
+Giovanni Ferreira dos Santos auxiliou no desenvolvimento das páginas de Contato e Feedbacks. O grupo registrou cerca de 2 horas e alguns minutos de trabalho nessas contribuições, sem especificar a data de execução.
