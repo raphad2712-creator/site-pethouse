@@ -1,83 +1,76 @@
-# Diário de bordo
+# Diário de bordo — PetHouse
 
-Registro das atividades e revisões do PetHouse. As datas abaixo correspondem aos registros disponíveis no projeto e à organização das contribuições; não indicam necessariamente o dia em que cada integrante começou ou terminou sua página.
+Aqui estão as principais etapas do nosso trabalho no site. As datas acompanham as publicações no Git e os registros do grupo. Algumas páginas foram feitas antes de serem colocadas no repositório.
 
 ## 19 de outubro de 2026
 
-Ruan Silva Costa publicou a primeira versão registrada no repositório, com a página inicial, a página de Produtos, o CSS e o README. Esse registro corresponde à publicação dos arquivos; a participação na criação das páginas segue a divisão de tarefas da equipe.
+O Ruan colocou a primeira versão do projeto no GitHub. Ela tinha a página inicial, Produtos, o CSS e o README. Foi a base que usamos para juntar as outras partes do site.
 
-Referência: [b81e846](https://github.com/raphad2712-creator/site-pethouse/commit/b81e846).
+[Primeira versão no Git](https://github.com/raphad2712-creator/site-pethouse/commit/b81e846).
 
 ## 21 de outubro de 2026
 
-Raphael David Silva Freitas integrou arquivos de Contato, Fornecedores e Login, imagens do catálogo e atualizações de Produtos e da página inicial. Foram ajustados os estilos compartilhados e simplificada a estrutura do HTML.
+Nesse dia, coloquei no repositório os arquivos de Contato, Fornecedores e Login, além das imagens do catálogo e de alterações em Produtos e na página inicial.
 
-O histórico também registra a correção de conflitos do Git e de carregamento do CSS. A revisão concentrou os estilos no arquivo compartilhado para facilitar a manutenção.
+Tivemos problemas com o CSS e com conflitos do Git. Corrigimos os arquivos e simplificamos o HTML. Também organizamos os estilos compartilhados para manter o mesmo padrão nas páginas e facilitar as alterações.
 
-Referências: [01d0e70](https://github.com/raphad2712-creator/site-pethouse/commit/01d0e70), [d9b9e48](https://github.com/raphad2712-creator/site-pethouse/commit/d9b9e48) e [652db8f](https://github.com/raphad2712-creator/site-pethouse/commit/652db8f).
+[Inclusão das páginas](https://github.com/raphad2712-creator/site-pethouse/commit/01d0e70) e [correções no HTML e CSS](https://github.com/raphad2712-creator/site-pethouse/commit/652db8f).
 
 ## 23 de outubro de 2026
 
-Raphael David Silva Freitas publicou ajustes na apresentação do Login: inclusão do CSS específico e da imagem de fundo, restauração do visual de referência do grupo, posicionamento do cabeçalho no topo e padronização do menu.
+Publiquei os ajustes no visual do Login. A página recebeu um arquivo de CSS próprio e uma imagem de fundo. Ajustamos o cabeçalho e o menu para deixar a tela de acordo com a referência do grupo.
 
-Nessa etapa, foi retirado um link de Cadastro que ainda não possuía página correspondente, evitando uma navegação quebrada.
+Também retiramos o link de Cadastro por enquanto, porque a página ainda não estava no projeto. Assim, o menu não levava para um arquivo que não existia.
 
-Referências: [5600c91](https://github.com/raphad2712-creator/site-pethouse/commit/5600c91), [679ef60](https://github.com/raphad2712-creator/site-pethouse/commit/679ef60) e [ff583d9](https://github.com/raphad2712-creator/site-pethouse/commit/ff583d9).
+[Alterações no Login](https://github.com/raphad2712-creator/site-pethouse/commit/5600c91) e [ajuste do cabeçalho](https://github.com/raphad2712-creator/site-pethouse/commit/ff583d9).
 
 ## 25 de outubro de 2026
 
-Raphael David Silva Freitas publicou a integração das páginas de Agendamento, Carrinho, Feedbacks, Fidelidade e Orçamentos recebidas no ZIP, além de ajustes em Fornecedores e nos menus. O formulário do Login foi centralizado, o rodapé foi separado e a imagem de fundo recebeu uma versão de maior nitidez, sem desfoque ou escurecimento.
+Juntei ao projeto as páginas de Agendamento, Carrinho, Feedbacks, Fidelidade e Orçamentos que recebemos no ZIP. Também ajustamos os menus para acessar essas páginas.
 
-João Victor Fava Yamada adicionou a página de Cadastro e alterou o Login para incluir o acesso ao novo formulário. Raphael integrou essas alterações à versão principal por meio do pull request do Cadastro.
+No Login, centralizamos o formulário, separamos o rodapé e trocamos a imagem de fundo por uma de melhor qualidade. Retiramos o desfoque e o escurecimento da imagem.
 
-Esses registros identificam quem publicou ou integrou as alterações no Git. A criação inicial do Login permanece atribuída a Luan, e os ajustes posteriores descritos pelo grupo permanecem atribuídos a Klener.
+O João Victor adicionou o Cadastro e colocou o acesso a ele no Login. Depois, integrei essas mudanças à versão principal pelo pull request. A criação inicial do Login foi do Luan, e o Klener também participou dos ajustes e do acesso ao Cadastro.
 
-Referências: [13525d5](https://github.com/raphad2712-creator/site-pethouse/commit/13525d5), [6a90bc2](https://github.com/raphad2712-creator/site-pethouse/commit/6a90bc2), [27adf2d](https://github.com/raphad2712-creator/site-pethouse/commit/27adf2d), [f261495](https://github.com/raphad2712-creator/site-pethouse/commit/f261495) e [a281ab2](https://github.com/raphad2712-creator/site-pethouse/commit/a281ab2).
+[Integração das páginas](https://github.com/raphad2712-creator/site-pethouse/commit/13525d5), [ajustes no Login](https://github.com/raphad2712-creator/site-pethouse/commit/6a90bc2) e [Cadastro do João Victor](https://github.com/raphad2712-creator/site-pethouse/commit/a281ab2).
 
 ## 7 de novembro de 2026
 
-Foram integrados os ajustes da página inicial e a página Mundo Pet, com imagens e links no menu. Contato recebeu um mapa geral de São Paulo. As cores e os espaçamentos passaram a usar variáveis CSS, e o Login manteve seus estilos específicos em um arquivo separado.
+Juntamos os ajustes do Ruan na página inicial e a página Mundo Pet da Jhoselia. Colocamos as imagens e os links nos menus. Contato recebeu o mapa de São Paulo.
 
-As contribuições reunidas nessa etapa foram:
+A Joana fez alterações nas imagens e preparou um documento com a revisão do projeto. Minha parte de Produtos ficou organizada com imagem, categoria, nome, preço e link para consultar cada item.
 
-| Integrante | Atividade registrada |
-| --- | --- |
-| Raphael David Silva Freitas | Desenvolvimento da página de Produtos, conforme sua descrição no grupo. |
-| Ruan Silva Costa | Ajustes na página inicial. |
-| Jhoselia Abigail Picco Mollo | Desenvolvimento da página Mundo Pet. |
-| Joana Manuele Freitas Silva | Alterações nas imagens e preparação do documento de revisão do projeto. |
-
-Para integrar páginas com estilos diferentes, o CSS foi compartilhado e foram padronizados cores, cartões, botões e espaçamentos.
+Como as páginas tinham algumas diferenças de estilo, organizamos as cores e os espaçamentos em variáveis no CSS. Padronizamos os cartões e os botões para o site ficar mais uniforme. O Login continuou com um CSS separado para o fundo e o formulário.
 
 ## 8 de novembro de 2026
 
-Foram reunidas as contribuições de Login e Cadastro e atualizada a relação dos integrantes:
+Fizemos uma revisão dos formulários, da navegação e das mídias. Encontramos espaços de vídeo que apontavam para arquivos ausentes. Retiramos esses espaços e depois colocamos o vídeo da Petz TV em Agendamento pelo YouTube, com crédito e link para assistir na plataforma.
 
-| Integrante | Atividade registrada |
+O player ficou com largura adaptável e proporção 16:9. Conferimos o tamanho dele no celular, mas a reprodução completa não foi confirmada na prévia.
+
+O Carrinho tinha um formulário que dependia de um servidor. Mudamos o destino para Orçamentos, já que o projeto usa HTML e CSS e não tem banco de dados.
+
+Nos formulários, colocamos orientações e identificamos os campos obrigatórios. Verificamos e-mail inválido, telefone fora do padrão, quantidade zero, usuário inválido e senha curta. Também conferimos a navegação do Login. As 12 páginas foram verificadas em uma prévia de 390 px, sem rolagem horizontal geral.
+
+Para melhorar a navegação pelo teclado, colocamos o link “Pular para o conteúdo”. Na página inicial, usamos `details` e `summary` nas perguntas frequentes, permitindo abrir e fechar as respostas sem JavaScript.
+
+A Estefany colocou o logo antes do nome PetHouse no cabeçalho, o ícone da aba e a linha laranja abaixo do menu. Essas alterações entraram nas 12 páginas. Ela levou aproximadamente 1 hora nessa parte.
+
+Também registramos o auxílio do Giovanni nas páginas de Contato e Feedbacks, com cerca de 2 horas e alguns minutos no total. A data em que ele fez essas atividades não foi especificada pelo grupo.
+
+## Participação do grupo
+
+| Integrante | Participação |
 | --- | --- |
-| Luan de Oliveira Mendes | Criação inicial da página de Login. |
-| Klener Nilmar Quispe Cari | Ajustes no Login e inclusão do acesso “novo cadastro”. |
-| João Victor Fava Yamada | Página de Cadastro, conforme a divisão indicada pelo grupo. |
-| Estefany Isidro Pachacuti | Inclusão do logo antes do nome PetHouse no cabeçalho, ícone da aba e linha laranja de separação no menu. Aproximadamente 1 hora de trabalho. |
+| Raphael David Silva Freitas | Produtos e integração dos arquivos no GitHub; Fornecedores na divisão de tarefas. |
+| Ruan Silva Costa | Primeira publicação do projeto e ajustes na página inicial. |
+| Jhoselia Abigail Picco Mollo | Página Mundo Pet. |
+| Joana Manuele Freitas Silva | Alterações nas imagens e revisão do projeto; Fidelidade e Orçamentos na divisão de tarefas. |
+| Luan de Oliveira Mendes | Criação inicial do Login. |
+| Klener Nilmar Quispe Cari | Ajustes no Login e acesso ao Cadastro; Agendamento e Carrinho na divisão de tarefas. |
+| João Victor Fava Yamada | Página de Cadastro e ligação com o Login. |
+| Estefany Isidro Pachacuti | Logo, ícone da aba e linha laranja do cabeçalho. |
+| Giovanni Ferreira dos Santos | Auxílio em Contato e Feedbacks. |
+| Julia Santos Vilela | Apresentação, conforme a divisão da equipe. |
 
-Foi organizada também a distribuição das páginas adicionais: Fornecedores para Raphael; Fidelidade e Orçamentos para Joana; Agendamento e Carrinho para Klener. Essas responsabilidades não possuem datas de execução confirmadas.
-
-### Revisão do site
-
-Na revisão, foram encontrados players apontando para arquivos ausentes e um formulário de Carrinho que dependia de servidor. Os players quebrados foram retirados, e o Carrinho passou a encaminhar a solicitação para Orçamentos, com valores de exemplo.
-
-Os formulários receberam orientações, identificação dos campos obrigatórios e descrições associadas. Foi adicionado um link para pular ao conteúdo e uma seção de perguntas frequentes na página inicial, usando `details` e `summary`.
-
-Foram verificados e-mail inválido, telefone fora do padrão, quantidade zero, usuário inválido, senha curta e navegação do Login demonstrativo. As 12 páginas foram verificadas em quadros móveis de 390 px, sem rolagem horizontal geral.
-
-### Vídeo
-
-Agendamento recebeu o vídeo “Como dar banho em cachorro em casa?”, da Petz TV, com player do YouTube, título, proporção 16:9 e largura adaptável. A página inclui o crédito e um link para assistir no YouTube. O player se ajustou à tela móvel; a reprodução completa não foi confirmada na prévia.
-
-### Identidade visual
-
-Em 8 de novembro, foi integrada a contribuição de Estefany Isidro Pachacuti: logo no cabeçalho e ícone da aba nas 12 páginas, além da linha laranja abaixo do menu. Estefany descreveu aproximadamente 1 hora de trabalho nessas alterações.
-
-### Integrantes
-
-Giovanni Ferreira dos Santos auxiliou no desenvolvimento das páginas de Contato e Feedbacks. O grupo registrou cerca de 2 horas e alguns minutos de trabalho nessas contribuições, sem especificar a data de execução.
+Os tempos de trabalho estão no [orçamento de esforço](orcamento.md). As responsabilidades adicionais da divisão de tarefas não têm datas de execução registradas.
